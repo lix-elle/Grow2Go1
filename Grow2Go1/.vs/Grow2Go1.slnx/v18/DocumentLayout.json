@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\programming\\c#\\grow2go1\\grow2go1\\grow2go1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 223,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Program.cs",
+              "RelativeDocumentMoniker": "Grow2Go1\\Program.cs",
+              "ToolTip": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Program.cs",
+              "RelativeToolTip": "Grow2Go1\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T20:14:02.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
