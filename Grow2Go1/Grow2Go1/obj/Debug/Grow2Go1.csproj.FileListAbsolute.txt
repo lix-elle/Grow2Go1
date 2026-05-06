@@ -1,7 +1,6 @@
-C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.csproj.AssemblyReference.cache
-C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.Properties.Resources.resources
-C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.csproj.GenerateResource.cache
-C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\bin\Debug\Assets\email_icon.png
+C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\bin\Debug\Assets\LoginBackground.png
+C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\bin\Debug\Assets\password_icon.png
 C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\bin\Debug\Grow2Go1.exe.config
 C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\bin\Debug\Grow2Go1.exe
 C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\bin\Debug\Grow2Go1.pdb
@@ -36,6 +35,11 @@ C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\bin\Debug\System.Memory.xml
 C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\bin\Debug\System.Numerics.Vectors.xml
 C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.csproj.AssemblyReference.cache
+C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.Properties.Resources.resources
+C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.Views.LoginForm.resources
+C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.csproj.GenerateResource.cache
+C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.csproj.CoreCompileInputs.cache
 C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.csproj.Up2Date
 C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.exe
 C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.pdb
