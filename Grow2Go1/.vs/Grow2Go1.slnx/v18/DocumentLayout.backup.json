@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\programming\\c#\\grow2go1\\grow2go1\\grow2go1\\helpers\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\helpers\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\programming\\c#\\grow2go1\\grow2go1\\grow2go1\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\grow2go1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\programming\\c#\\grow2go1\\grow2go1\\grow2go1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\grow2go1\\helpers\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\helpers\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\grow2go1\\views\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\views\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\grow2go1\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\programming\\c#\\grow2go1\\grow2go1\\grow2go1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,63 +31,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SessionManager.cs",
-              "DocumentMoniker": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Helpers\\SessionManager.cs",
-              "RelativeDocumentMoniker": "Grow2Go1\\Helpers\\SessionManager.cs",
-              "ToolTip": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Helpers\\SessionManager.cs",
-              "RelativeToolTip": "Grow2Go1\\Helpers\\SessionManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Grow2Go1\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Grow2Go1\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T20:54:25.978Z",
+              "WhenOpened": "2026-05-07T09:12:42.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Grow2Go1\\Models\\Order.cs",
+              "ToolTip": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Models\\Order.cs",
+              "RelativeToolTip": "Grow2Go1\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T09:11:25.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DBConnection.cs",
-              "DocumentMoniker": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Helpers\\DBConnection.cs",
-              "RelativeDocumentMoniker": "Grow2Go1\\Helpers\\DBConnection.cs",
-              "ToolTip": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Helpers\\DBConnection.cs",
-              "RelativeToolTip": "Grow2Go1\\Helpers\\DBConnection.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAcwCEAAAABAAAAAAAAAA==",
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Grow2Go1\\Models\\Product.cs",
+              "ToolTip": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Models\\Product.cs",
+              "RelativeToolTip": "Grow2Go1\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T20:54:16.068Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Program.cs",
-              "RelativeDocumentMoniker": "Grow2Go1\\Program.cs",
-              "ToolTip": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Program.cs",
-              "RelativeToolTip": "Grow2Go1\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T20:12:20.828Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginForm.Designer.cs",
-              "DocumentMoniker": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\LoginForm.Designer.cs",
-              "RelativeDocumentMoniker": "Grow2Go1\\Views\\LoginForm.Designer.cs",
-              "ToolTip": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\LoginForm.Designer.cs",
-              "RelativeToolTip": "Grow2Go1\\Views\\LoginForm.Designer.cs",
-              "ViewState": "AgIAAKoBAAAAAAAAAAAYwJQBAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
-              "WhenOpened": "2026-05-04T19:21:05.631Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\LoginForm.cs",
-              "RelativeDocumentMoniker": "Grow2Go1\\Views\\LoginForm.cs",
-              "ToolTip": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\LoginForm.cs",
-              "RelativeToolTip": "Grow2Go1\\Views\\LoginForm.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAnwCEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2026-05-04T05:47:00.052Z"
+              "WhenOpened": "2026-05-07T09:10:32.834Z",
+              "EditorCaption": ""
             }
           ]
         }
