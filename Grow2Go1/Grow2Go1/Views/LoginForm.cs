@@ -43,6 +43,10 @@ namespace Grow2Go1.Views
         private void btnSignIn_Click(object sender, EventArgs e)
         {
             signUpPanel.Visible = false;
+            signUpCustomer.Visible = false;
+            signUpFarmer.Visible = false;
+
+            // Then show sign in
             signInPanel.Visible = true;
 
             // Toggle button styles — Sign In active

@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\programming\\c#\\grow2go1\\grow2go1\\grow2go1\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\grow2go1\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\views\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\grow2go1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\programming\\c#\\grow2go1\\grow2go1\\grow2go1\\helpers\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\helpers\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\grow2go1\\helpers\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\helpers\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\grow2go1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\grow2go1\\helpers\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "SessionManager.cs",
               "DocumentMoniker": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Helpers\\SessionManager.cs",
               "RelativeDocumentMoniker": "Grow2Go1\\Helpers\\SessionManager.cs",
@@ -55,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "DBConnection.cs",
               "DocumentMoniker": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Helpers\\DBConnection.cs",
               "RelativeDocumentMoniker": "Grow2Go1\\Helpers\\DBConnection.cs",
@@ -63,8 +59,7 @@
               "RelativeToolTip": "Grow2Go1\\Helpers\\DBConnection.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAcwCEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T20:54:16.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T20:54:16.068Z"
             },
             {
               "$type": "Document",
@@ -76,18 +71,17 @@
               "RelativeToolTip": "Grow2Go1\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAgwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T20:12:20.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T20:12:20.828Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "LoginForm.Designer.cs",
               "DocumentMoniker": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\LoginForm.Designer.cs",
               "RelativeDocumentMoniker": "Grow2Go1\\Views\\LoginForm.Designer.cs",
               "ToolTip": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\LoginForm.Designer.cs",
               "RelativeToolTip": "Grow2Go1\\Views\\LoginForm.Designer.cs",
-              "ViewState": "AgIAAKoBAAAAAAAAAAAYwJQBAABDAAAAAAAAAA==",
+              "ViewState": "AgIAALsEAAAAAAAAAAAIwNIEAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T19:21:05.631Z",
               "EditorCaption": ""
@@ -95,24 +89,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\LoginForm.cs",
-              "RelativeDocumentMoniker": "Grow2Go1\\Views\\LoginForm.cs",
-              "ToolTip": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\LoginForm.cs [Design]",
-              "RelativeToolTip": "Grow2Go1\\Views\\LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T07:56:48.453Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\LoginForm.cs",
               "RelativeDocumentMoniker": "Grow2Go1\\Views\\LoginForm.cs",
               "ToolTip": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\LoginForm.cs",
               "RelativeToolTip": "Grow2Go1\\Views\\LoginForm.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAnwCEAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAA1wDcAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T05:47:00.052Z",
               "EditorCaption": ""
