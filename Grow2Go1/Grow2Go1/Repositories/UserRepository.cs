@@ -70,18 +70,19 @@ namespace Grow2Go.Repositories
         }
 
         // ── REGISTER: Insert new user into DB ─────────────────────────────────
-        public bool CreateUser(string fullName, string email, string password, string role)
+        public bool CreateUser(string fullName, string email, string phone, string password, string role)
         {
             try
             {
                 using (var conn = DBConnection.GetConnection())
                 {
                     conn.Open();
-                    string query = "INSERT INTO users (full_name, email, password, role) VALUES (@name, @email, @pass, @role)";
+                    string query = "INSERT INTO users (full_name, email, phone, password, role) VALUES (@name, @email, @phone, @pass, @role)";
                     using (var cmd = new MySqlCommand(query, conn))
                     {
                         cmd.Parameters.AddWithValue("@name", fullName);
                         cmd.Parameters.AddWithValue("@email", email);
+                        cmd.Parameters.AddWithValue("@phone", phone);
                         cmd.Parameters.AddWithValue("@pass", password);
                         cmd.Parameters.AddWithValue("@role", role);
                         cmd.ExecuteNonQuery();

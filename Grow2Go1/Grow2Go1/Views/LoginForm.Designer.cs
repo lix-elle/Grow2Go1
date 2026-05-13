@@ -114,7 +114,7 @@ namespace Grow2Go1.Views
             this.signInPanel.Dock = System.Windows.Forms.DockStyle.Right;
             this.signInPanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(15)))), ((int)(((byte)(20)))), ((int)(((byte)(15)))));
             this.signInPanel.ForeColor = System.Drawing.Color.Transparent;
-            this.signInPanel.Location = new System.Drawing.Point(1052, 0);
+            this.signInPanel.Location = new System.Drawing.Point(202, 0);
             this.signInPanel.Name = "signInPanel";
             this.signInPanel.Size = new System.Drawing.Size(850, 1033);
             this.signInPanel.TabIndex = 0;
@@ -373,7 +373,7 @@ namespace Grow2Go1.Views
             this.signUpPanel.Dock = System.Windows.Forms.DockStyle.Right;
             this.signUpPanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(15)))), ((int)(((byte)(20)))), ((int)(((byte)(15)))));
             this.signUpPanel.ForeColor = System.Drawing.Color.Transparent;
-            this.signUpPanel.Location = new System.Drawing.Point(202, 0);
+            this.signUpPanel.Location = new System.Drawing.Point(-648, 0);
             this.signUpPanel.Name = "signUpPanel";
             this.signUpPanel.Size = new System.Drawing.Size(850, 1033);
             this.signUpPanel.TabIndex = 8;
@@ -526,7 +526,7 @@ namespace Grow2Go1.Views
             this.signUpCustomer.Dock = System.Windows.Forms.DockStyle.Right;
             this.signUpCustomer.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(15)))), ((int)(((byte)(20)))), ((int)(((byte)(15)))));
             this.signUpCustomer.ForeColor = System.Drawing.Color.Transparent;
-            this.signUpCustomer.Location = new System.Drawing.Point(-648, 0);
+            this.signUpCustomer.Location = new System.Drawing.Point(-1498, 0);
             this.signUpCustomer.Name = "signUpCustomer";
             this.signUpCustomer.Size = new System.Drawing.Size(850, 1033);
             this.signUpCustomer.TabIndex = 10;
@@ -579,6 +579,7 @@ namespace Grow2Go1.Views
             this.createAccBtn1.Size = new System.Drawing.Size(362, 71);
             this.createAccBtn1.TabIndex = 21;
             this.createAccBtn1.Text = "Create Account";
+            this.createAccBtn1.Click += new System.EventHandler(this.createAccBtn1_Click);
             // 
             // txtConfirmPass1
             // 
@@ -834,7 +835,7 @@ namespace Grow2Go1.Views
             this.signUpFarmer.Dock = System.Windows.Forms.DockStyle.Right;
             this.signUpFarmer.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(15)))), ((int)(((byte)(20)))), ((int)(((byte)(15)))));
             this.signUpFarmer.ForeColor = System.Drawing.Color.Transparent;
-            this.signUpFarmer.Location = new System.Drawing.Point(-1498, 0);
+            this.signUpFarmer.Location = new System.Drawing.Point(1052, 0);
             this.signUpFarmer.Name = "signUpFarmer";
             this.signUpFarmer.Size = new System.Drawing.Size(850, 1033);
             this.signUpFarmer.TabIndex = 11;
@@ -887,6 +888,7 @@ namespace Grow2Go1.Views
             this.createAccBtn2.Size = new System.Drawing.Size(362, 71);
             this.createAccBtn2.TabIndex = 21;
             this.createAccBtn2.Text = "Create Account";
+            this.createAccBtn2.Click += new System.EventHandler(this.createAccBtn2_Click);
             // 
             // txtConfirmPass2
             // 
@@ -1127,10 +1129,10 @@ namespace Grow2Go1.Views
             this.BackgroundImage = global::Grow2Go1.Properties.Resources.bgFinal;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1902, 1033);
-            this.Controls.Add(this.signUpFarmer);
             this.Controls.Add(this.signUpCustomer);
             this.Controls.Add(this.signUpPanel);
             this.Controls.Add(this.signInPanel);
+            this.Controls.Add(this.signUpFarmer);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
