@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\",
+  "WorkspaceRootPath": "C:\\Users\\Public\\Project AppsDev1\\Grow2Go1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\programming\\c#\\grow2go1\\grow2go1\\grow2go1\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|C:\\Users\\Public\\Project AppsDev1\\Grow2Go1\\grow2go1\\views\\farmerdashboard1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\views\\farmerdashboard1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\programming\\c#\\grow2go1\\grow2go1\\grow2go1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\users\\public\\project appsdev1\\grow2go1\\grow2go1\\views\\farmerdashboard1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\views\\farmerdashboard1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\programming\\c#\\grow2go1\\grow2go1\\grow2go1\\helpers\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\helpers\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\users\\public\\project appsdev1\\grow2go1\\grow2go1\\views\\farmerdashboard2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\views\\farmerdashboard2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\programming\\c#\\grow2go1\\grow2go1\\grow2go1\\helpers\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\helpers\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\users\\public\\project appsdev1\\grow2go1\\grow2go1\\views\\farmerdashboard2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\views\\farmerdashboard2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\programming\\c#\\grow2go1\\grow2go1\\grow2go1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|C:\\Users\\Public\\Project AppsDev1\\Grow2Go1\\grow2go1\\views\\farmerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\views\\farmerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,76 +30,77 @@
       "DocumentGroups": [
         {
           "DockedHeight": 223,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FarmerDashboard2.cs",
+              "DocumentMoniker": "C:\\Users\\Public\\Project AppsDev1\\Grow2Go1\\Grow2Go1\\Views\\FarmerDashboard2.cs",
+              "RelativeDocumentMoniker": "Grow2Go1\\Views\\FarmerDashboard2.cs",
+              "ToolTip": "C:\\Users\\Public\\Project AppsDev1\\Grow2Go1\\Grow2Go1\\Views\\FarmerDashboard2.cs",
+              "RelativeToolTip": "Grow2Go1\\Views\\FarmerDashboard2.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T21:22:30.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FarmerDashboard1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Public\\Project AppsDev1\\Grow2Go1\\Grow2Go1\\Views\\FarmerDashboard1.Designer.cs",
+              "RelativeDocumentMoniker": "Grow2Go1\\Views\\FarmerDashboard1.Designer.cs",
+              "ToolTip": "C:\\Users\\Public\\Project AppsDev1\\Grow2Go1\\Grow2Go1\\Views\\FarmerDashboard1.Designer.cs",
+              "RelativeToolTip": "Grow2Go1\\Views\\FarmerDashboard1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T17:12:53.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Grow2Go1\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Grow2Go1\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAJ0AAAAAAAAAAAAAAKMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T20:25:56.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Grow2Go1\\Models\\User.cs",
-              "ToolTip": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Models\\User.cs",
-              "RelativeToolTip": "Grow2Go1\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T20:24:58.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SessionManager.cs",
-              "DocumentMoniker": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Helpers\\SessionManager.cs",
-              "RelativeDocumentMoniker": "Grow2Go1\\Helpers\\SessionManager.cs",
-              "ToolTip": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Helpers\\SessionManager.cs",
-              "RelativeToolTip": "Grow2Go1\\Helpers\\SessionManager.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAswAgAAAA+AAAAAAAAAA==",
+              "Title": "FarmerDashboard2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Public\\Project AppsDev1\\Grow2Go1\\Grow2Go1\\Views\\FarmerDashboard2.cs",
+              "RelativeDocumentMoniker": "Grow2Go1\\Views\\FarmerDashboard2.cs",
+              "ToolTip": "C:\\Users\\Public\\Project AppsDev1\\Grow2Go1\\Grow2Go1\\Views\\FarmerDashboard2.cs [Design]",
+              "RelativeToolTip": "Grow2Go1\\Views\\FarmerDashboard2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T20:23:56.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-14T17:12:20.98Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DBConnection.cs",
-              "DocumentMoniker": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Helpers\\DBConnection.cs",
-              "RelativeDocumentMoniker": "Grow2Go1\\Helpers\\DBConnection.cs",
-              "ToolTip": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Helpers\\DBConnection.cs",
-              "RelativeToolTip": "Grow2Go1\\Helpers\\DBConnection.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBgAAAARAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FarmerDashboard1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Public\\Project AppsDev1\\Grow2Go1\\Grow2Go1\\Views\\FarmerDashboard1.cs",
+              "RelativeDocumentMoniker": "Grow2Go1\\Views\\FarmerDashboard1.cs",
+              "ToolTip": "C:\\Users\\Public\\Project AppsDev1\\Grow2Go1\\Grow2Go1\\Views\\FarmerDashboard1.cs [Design]",
+              "RelativeToolTip": "Grow2Go1\\Views\\FarmerDashboard1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T20:20:29.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-08T09:10:39.861Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Program.cs",
-              "RelativeDocumentMoniker": "Grow2Go1\\Program.cs",
-              "ToolTip": "C:\\Programming\\C#\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Program.cs",
-              "RelativeToolTip": "Grow2Go1\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Title": "FarmerDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Public\\Project AppsDev1\\Grow2Go1\\Grow2Go1\\Views\\FarmerDashboard.cs",
+              "RelativeDocumentMoniker": "Grow2Go1\\Views\\FarmerDashboard.cs",
+              "ToolTip": "C:\\Users\\Public\\Project AppsDev1\\Grow2Go1\\Grow2Go1\\Views\\FarmerDashboard.cs [Design]",
+              "RelativeToolTip": "Grow2Go1\\Views\\FarmerDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T20:14:02.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T08:26:38.499Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

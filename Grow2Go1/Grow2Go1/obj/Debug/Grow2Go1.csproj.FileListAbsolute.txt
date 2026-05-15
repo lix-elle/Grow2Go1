@@ -1,7 +1,6 @@
-C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.csproj.AssemblyReference.cache
-C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.Properties.Resources.resources
-C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.csproj.GenerateResource.cache
-C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\bin\Debug\Assets\email_icon.png
+C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\bin\Debug\Assets\LoginBackground.png
+C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\bin\Debug\Assets\password_icon.png
 C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\bin\Debug\Grow2Go1.exe.config
 C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\bin\Debug\Grow2Go1.exe
 C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\bin\Debug\Grow2Go1.pdb
@@ -36,6 +35,59 @@ C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\bin\Debug\System.Memory.xml
 C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\bin\Debug\System.Numerics.Vectors.xml
 C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.csproj.AssemblyReference.cache
+C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.Properties.Resources.resources
+C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.Views.LoginForm.resources
+C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.csproj.GenerateResource.cache
+C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.csproj.CoreCompileInputs.cache
 C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.csproj.Up2Date
 C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.exe
 C:\Programming\C#\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.pdb
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\Assets\email_icon.png
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\Assets\LoginBackground.png
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\Assets\password_icon.png
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\Assets\Cart Icon.png
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\Grow2Go1.exe.config
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\Grow2Go1.exe
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\Grow2Go1.pdb
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\Google.Protobuf.dll
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\Guna.UI2.dll
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\MySql.Data.dll
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\System.Buffers.dll
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\System.Memory.dll
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\ZstdSharp.dll
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\Google.Protobuf.pdb
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\Google.Protobuf.xml
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\MySql.Data.xml
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\System.Buffers.xml
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\System.Memory.xml
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.csproj.AssemblyReference.cache
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.Properties.Resources.resources
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.Views.FarmerDashboard.resources
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.Views.LoginForm.resources
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.csproj.GenerateResource.cache
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.csproj.CoreCompileInputs.cache
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.csproj.Up2Date
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.exe
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.pdb
+C:\Users\Public\Project AppsDev1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.Views.FarmerDashboard1.resources

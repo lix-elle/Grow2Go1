@@ -16,7 +16,7 @@ namespace Grow2Go1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-          
+            Application.Run(new Views.LoginForm());
         }
     }
 }
