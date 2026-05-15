@@ -18,15 +18,15 @@ namespace Grow2Go1.Views
             string iconPath = Path.Combine(Application.StartupPath, "Assets", "Cart_icon.png");
 
             // Configure Marketplace button
-            btnMarketplace.Text = "Marketplace";
-            btnMarketplace.Image = Image.FromFile(iconPath);
-            btnMarketplace.ImageSize = new Size(20, 20);
-            btnMarketplace.ImageAlign = HorizontalAlignment.Left;
-            btnMarketplace.TextAlign = HorizontalAlignment.Right;
-            btnMarketplace.FillColor = Color.Transparent;
-            btnMarketplace.UseTransparentBackground = true;
-            btnMarketplace.ForeColor = Color.White;
-            btnMarketplace.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+            MarketplaceButton.Text = "Marketplace";
+            MarketplaceButton.Image = Image.FromFile(iconPath);
+            MarketplaceButton.ImageSize = new Size(20, 20);
+            MarketplaceButton.ImageAlign = HorizontalAlignment.Left;
+            MarketplaceButton.TextAlign = HorizontalAlignment.Right;
+            MarketplaceButton.FillColor = Color.Transparent;
+            MarketplaceButton.UseTransparentBackground = true;
+            MarketplaceButton.ForeColor = Color.White;
+            MarketplaceButton.Font = new Font("Segoe UI", 10, FontStyle.Bold);
         }
 
         private void btnMarketplace_Click(object sender, EventArgs e)
@@ -42,6 +42,11 @@ namespace Grow2Go1.Views
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel2_Click(object sender, EventArgs e)
         {
 
         }

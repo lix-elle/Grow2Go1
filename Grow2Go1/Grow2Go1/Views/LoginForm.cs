@@ -157,5 +157,10 @@ namespace Grow2Go1.Views
             signUpFarmer.Visible = false;
             signUpPanel.Visible = true;
         }
+
+        private void signUpPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

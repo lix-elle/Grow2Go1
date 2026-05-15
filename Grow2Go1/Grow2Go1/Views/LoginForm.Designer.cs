@@ -49,6 +49,8 @@ namespace Grow2Go1.Views
             this.label10 = new System.Windows.Forms.Label();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.signUpCustomer = new Guna.UI2.WinForms.Guna2Panel();
+            this.customerlbl = new System.Windows.Forms.Label();
+            this.backButton = new Guna.UI2.WinForms.Guna2ImageButton();
             this.createAccBtn1 = new Guna.UI2.WinForms.Guna2Button();
             this.txtConfirmPass1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label17 = new System.Windows.Forms.Label();
@@ -60,14 +62,12 @@ namespace Grow2Go1.Views
             this.label14 = new System.Windows.Forms.Label();
             this.txtFullname1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.namelbl = new System.Windows.Forms.Label();
-            this.customerlbl = new System.Windows.Forms.Label();
             this.tyhlbl3 = new System.Windows.Forms.Label();
             this.fohlbl3 = new System.Windows.Forms.Label();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.label13 = new System.Windows.Forms.Label();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.backButton = new Guna.UI2.WinForms.Guna2ImageButton();
             this.signUpFarmer = new Guna.UI2.WinForms.Guna2Panel();
             this.farmerlbl = new System.Windows.Forms.Label();
             this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
@@ -378,6 +378,7 @@ namespace Grow2Go1.Views
             this.signUpPanel.Size = new System.Drawing.Size(850, 1033);
             this.signUpPanel.TabIndex = 8;
             this.signUpPanel.UseTransparentBackground = true;
+            this.signUpPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.signUpPanel_Paint);
             // 
             // customerBtn
             // 
@@ -542,6 +543,21 @@ namespace Grow2Go1.Views
             this.customerlbl.Size = new System.Drawing.Size(114, 31);
             this.customerlbl.TabIndex = 23;
             this.customerlbl.Text = "Customer";
+            // 
+            // backButton
+            // 
+            this.backButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.backButton.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.backButton.Image = global::Grow2Go1.Properties.Resources.backBtn;
+            this.backButton.ImageOffset = new System.Drawing.Point(0, 0);
+            this.backButton.ImageRotate = 0F;
+            this.backButton.ImageSize = new System.Drawing.Size(35, 35);
+            this.backButton.Location = new System.Drawing.Point(32, 156);
+            this.backButton.Name = "backButton";
+            this.backButton.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.backButton.Size = new System.Drawing.Size(55, 39);
+            this.backButton.TabIndex = 22;
+            this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
             // createAccBtn1
             // 
@@ -796,21 +812,6 @@ namespace Grow2Go1.Views
             this.guna2Button4.TabIndex = 0;
             this.guna2Button4.Text = "Sign In";
             this.guna2Button4.Click += new System.EventHandler(this.btnSignIn_Click);
-            // 
-            // backButton
-            // 
-            this.backButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.backButton.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.backButton.Image = global::Grow2Go1.Properties.Resources.backBtn;
-            this.backButton.ImageOffset = new System.Drawing.Point(0, 0);
-            this.backButton.ImageRotate = 0F;
-            this.backButton.ImageSize = new System.Drawing.Size(35, 35);
-            this.backButton.Location = new System.Drawing.Point(32, 156);
-            this.backButton.Name = "backButton";
-            this.backButton.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.backButton.Size = new System.Drawing.Size(55, 39);
-            this.backButton.TabIndex = 22;
-            this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
             // signUpFarmer
             // 
@@ -1159,6 +1160,7 @@ namespace Grow2Go1.Views
             this.guna2Panel4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion

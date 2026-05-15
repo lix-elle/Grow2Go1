@@ -112,6 +112,24 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="Views\FarmerDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FarmerDashboard.Designer.cs">
+      <DependentUpon>FarmerDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FarmerDashboard1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\FarmerDashboard1.Designer.cs">
+      <DependentUpon>FarmerDashboard1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FarmerDashboard2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\FarmerDashboard2.Designer.cs">
+      <DependentUpon>FarmerDashboard2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +140,15 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FarmerDashboard.resx">
+      <DependentUpon>FarmerDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FarmerDashboard1.resx">
+      <DependentUpon>FarmerDashboard1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FarmerDashboard2.resx">
+      <DependentUpon>FarmerDashboard2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
@@ -145,15 +172,28 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="Assets\prime_check-circle%402x.png" />
+    <None Include="Assets\prime_check-circle.png" />
+    <None Include="Assets\proicons_location.png" />
+    <None Include="Assets\Vector.png" />
+    <None Include="Assets\Recipe Icon.png" />
     <None Include="Assets\backBtn.png" />
     <Content Include="Assets\bgFinal.png" />
     <None Include="Assets\phoneIcon.png" />
     <None Include="Assets\customerIcon.png" />
+    <Content Include="Assets\Cart Icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Assets\Chat Icon.png" />
     <Content Include="Assets\email_icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Assets\farmerIcon.png" />
     <None Include="Assets\fullnameIcon.png" />
+    <None Include="Assets\List.png" />
+    <None Include="Assets\Location Icon.png" />
+    <None Include="Assets\iconamoon_edit.png" />
+    <None Include="Assets\hugeicons_view.png" />
     <Content Include="Assets\LoginBackground.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
