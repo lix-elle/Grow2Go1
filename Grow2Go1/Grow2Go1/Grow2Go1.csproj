@@ -90,6 +90,7 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
@@ -103,6 +104,8 @@
   <ItemGroup>
     <Compile Include="Helpers\DBConnection.cs" />
     <Compile Include="Helpers\SessionManager.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\Product.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -111,24 +114,19 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Repositories\ProductRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="Views\CustomerDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\CustomerDashboard.Designer.cs">
+      <DependentUpon>CustomerDashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\FarmerDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\FarmerDashboard.Designer.cs">
       <DependentUpon>FarmerDashboard.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Views\FarmerDashboard1.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Views\FarmerDashboard1.Designer.cs">
-      <DependentUpon>FarmerDashboard1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Views\FarmerDashboard2.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Views\FarmerDashboard2.Designer.cs">
-      <DependentUpon>FarmerDashboard2.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\LoginForm.cs">
       <SubType>Form</SubType>
@@ -143,12 +141,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\FarmerDashboard.resx">
       <DependentUpon>FarmerDashboard.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\FarmerDashboard1.resx">
-      <DependentUpon>FarmerDashboard1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\FarmerDashboard2.resx">
-      <DependentUpon>FarmerDashboard2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
