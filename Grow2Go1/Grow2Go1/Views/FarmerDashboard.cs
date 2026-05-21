@@ -1,25 +1,33 @@
-﻿using System;
+﻿using Grow2Go.Models;
+using System;
 using System.Drawing;
-using System.IO;
 using System.Windows.Forms;
 
 namespace Grow2Go1.Views
 {
     public partial class FarmerDashboard : Form
     {
+        private User _currentUser;
+
         public FarmerDashboard()
         {
             InitializeComponent();
         }
 
+        public FarmerDashboard(User user)
+        {
+            InitializeComponent();
+            _currentUser = user;
+        }
+
         private void FarmerDashboard_Load(object sender, EventArgs e)
         {
-            // Path to your shopping cart icon in Assets
-            string iconPath = Path.Combine(Application.StartupPath, "Assets", "Cart_icon.png");
+            if (_currentUser != null)
+                this.Text = "Farmer Dashboard - " + _currentUser.FullName;
 
-            // Configure Marketplace button
+            // Configure Marketplace button.
+            // The cart icon comes from embedded resources via the designer.
             MarketplaceButton.Text = "Marketplace";
-            MarketplaceButton.Image = Image.FromFile(iconPath);
             MarketplaceButton.ImageSize = new Size(20, 20);
             MarketplaceButton.ImageAlign = HorizontalAlignment.Left;
             MarketplaceButton.TextAlign = HorizontalAlignment.Right;
