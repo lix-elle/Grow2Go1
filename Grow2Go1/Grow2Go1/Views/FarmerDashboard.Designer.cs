@@ -479,6 +479,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(34)))), ((int)(((byte)(17)))));
             this.ClientSize = new System.Drawing.Size(1902, 1033);
             this.Controls.Add(this.guna2CustomGradientPanel1);
@@ -491,9 +492,10 @@
             this.Controls.Add(this.guna2CustomGradientPanel2);
             this.Controls.Add(this.Tagline);
             this.Controls.Add(this.FarmerDashboardLabel);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FarmerDashboard";
-            this.Text = "            ";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Farmer Dashboard";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FarmerDashboard_Load);
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             this.guna2CustomGradientPanel3.ResumeLayout(false);
