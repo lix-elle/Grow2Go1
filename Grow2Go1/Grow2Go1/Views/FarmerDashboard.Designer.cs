@@ -411,8 +411,7 @@
             this.guna2CustomGradientPanel1.TabIndex = 9;
             // 
             // MenuButton
-            // 
-            this.MenuButton.BackgroundImage = global::Grow2Go1.Properties.Resources.List;
+            //
             this.MenuButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.MenuButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.MenuButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -436,7 +435,6 @@
             this.FarmMapButton.FillColor = System.Drawing.Color.Transparent;
             this.FarmMapButton.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.FarmMapButton.ForeColor = System.Drawing.Color.White;
-            this.FarmMapButton.Image = global::Grow2Go1.Properties.Resources.Location_Icon;
             this.FarmMapButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.FarmMapButton.ImageSize = new System.Drawing.Size(40, 40);
             this.FarmMapButton.Location = new System.Drawing.Point(1473, 32);
@@ -456,7 +454,6 @@
             this.MarketplaceButton.FillColor = System.Drawing.Color.Transparent;
             this.MarketplaceButton.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.MarketplaceButton.ForeColor = System.Drawing.Color.White;
-            this.MarketplaceButton.Image = global::Grow2Go1.Properties.Resources.Cart_Icon;
             this.MarketplaceButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.MarketplaceButton.ImageSize = new System.Drawing.Size(40, 40);
             this.MarketplaceButton.Location = new System.Drawing.Point(1214, 32);
