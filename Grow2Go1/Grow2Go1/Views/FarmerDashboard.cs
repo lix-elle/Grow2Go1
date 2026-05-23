@@ -1,7 +1,6 @@
 ﻿using Grow2Go.Models;
 using System;
 using System.Drawing;
-using System.IO;
 using System.Windows.Forms;
 
 namespace Grow2Go1.Views
@@ -30,14 +29,9 @@ namespace Grow2Go1.Views
             MarketplaceButton.ForeColor = Color.White;
             MarketplaceButton.Font = new Font("Segoe UI", 10, FontStyle.Bold);
 
-            // Optionally load cart icon if the asset is present
-            string iconPath = Path.Combine(Application.StartupPath, "Assets", "Cart Icon.png");
-            if (File.Exists(iconPath))
-            {
-                MarketplaceButton.Image = Image.FromFile(iconPath);
-                MarketplaceButton.ImageSize = new Size(20, 20);
-                MarketplaceButton.ImageAlign = HorizontalAlignment.Left;
-            }
+            // Cart icon already set from embedded resource in the designer.
+            MarketplaceButton.ImageSize = new Size(20, 20);
+            MarketplaceButton.ImageAlign = HorizontalAlignment.Left;
 
             if (_currentUser != null)
             {
