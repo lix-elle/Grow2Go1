@@ -16,9 +16,24 @@ namespace Grow2Go1.Views
         private FarmerDashboard2 _ordersView;
         private FarmerDashboard3 _farmProfileView;
 
-        // Snapshot of the controls that make up the Overview screen,
-        // so we can hide them as a group when a section is shown.
-        private List<Control> _overviewControls;
+        // Persistent dashboard chrome (header bar, title, tab strip).
+        // These stay visible at all times; only the overview content swaps out.
+        private static readonly HashSet<string> ChromeNames = new HashSet<string>
+        {
+            "Logo", "MenuButton", "FarmMapButton", "MarketplaceButton",
+            "FarmerDashboardLabel", "Tagline",
+            "OverviewButton", "ProductsButton", "OrdersButton", "FarmProfileButton",
+            "guna2CustomGradientPanel1", "guna2CustomGradientPanel2"
+        };
+
+        // Overview-only controls (stat cards, recent-orders panel) — hidden when
+        // a section UC is shown.
+        private List<Control> _overviewOnlyControls;
+
+        // Section host area sits just below the tab strip.
+        private const int SectionTop = 460;
+        private const int SectionSidePad = 20;
+        private const int SectionBottomPad = 10;
 
         public FarmerDashboard()
         {
@@ -47,8 +62,10 @@ namespace Grow2Go1.Views
                 this.Text = "Farmer Dashboard - " + _currentUser.FullName;
             }
 
-            // Remember which controls make up the Overview view.
-            _overviewControls = this.Controls.Cast<Control>().ToList();
+            // Snapshot the overview-only controls (everything that isn't chrome).
+            _overviewOnlyControls = this.Controls.Cast<Control>()
+                .Where(c => !ChromeNames.Contains(c.Name))
+                .ToList();
 
             // Wire the four top-nav tabs on the main form.
             OverviewButton.Click += (s, ev) => ShowOverview();
@@ -62,7 +79,7 @@ namespace Grow2Go1.Views
         private void ShowOverview()
         {
             HideAllSections();
-            foreach (var c in _overviewControls) c.Visible = true;
+            foreach (var c in _overviewOnlyControls) c.Visible = true;
             HighlightActiveTab(OverviewButton);
         }
 
@@ -101,17 +118,29 @@ namespace Grow2Go1.Views
 
         private void MountSection(UserControl section)
         {
-            section.Dock = DockStyle.Fill;
+            // Hide the redundant header/tab chrome each UserControl carries
+            // (the teammate built every section as a full-page layout), then
+            // shift the remaining section content up so it starts at the top
+            // of the UC. The parent form's chrome stays put — that's why icons
+            // no longer "move" between tabs.
+            HideChromeIn(section);
+            ShiftContentToTop(section);
+
+            section.Location = new Point(SectionSidePad, SectionTop);
+            section.Size = new Size(
+                this.ClientSize.Width - SectionSidePad * 2,
+                this.ClientSize.Height - SectionTop - SectionBottomPad);
+            section.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Bottom;
+            section.AutoScroll = true;
+            section.BackColor = this.BackColor;
             section.Visible = false;
             this.Controls.Add(section);
-            WireSectionNav(section);
         }
 
         private void ActivateSection(UserControl section)
         {
-            // Hide overview content
-            foreach (var c in _overviewControls) c.Visible = false;
-            // Hide other sections
+            // Hide ONLY overview content; the chrome stays visible.
+            foreach (var c in _overviewOnlyControls) c.Visible = false;
             if (_productsView != null && _productsView != section) _productsView.Visible = false;
             if (_ordersView != null && _ordersView != section) _ordersView.Visible = false;
             if (_farmProfileView != null && _farmProfileView != section) _farmProfileView.Visible = false;
@@ -127,30 +156,25 @@ namespace Grow2Go1.Views
             if (_farmProfileView != null) _farmProfileView.Visible = false;
         }
 
-        // Each section UserControl embeds its own nav (OverviewButton, ProductsButton,
-        // OrdersButton, FarmProfileButton). Route those clicks back to the parent
-        // switching logic so users can navigate between sections from any view.
-        private void WireSectionNav(Control container)
+        private static void HideChromeIn(Control container)
         {
             foreach (Control c in container.Controls)
             {
-                switch (c.Name)
-                {
-                    case "OverviewButton":
-                        c.Click += (s, e) => ShowOverview();
-                        break;
-                    case "ProductsButton":
-                        c.Click += (s, e) => ShowProducts();
-                        break;
-                    case "OrdersButton":
-                        c.Click += (s, e) => ShowOrders();
-                        break;
-                    case "FarmProfileButton":
-                        c.Click += (s, e) => ShowFarmProfile();
-                        break;
-                }
-                if (c.HasChildren) WireSectionNav(c);
+                if (ChromeNames.Contains(c.Name)) c.Visible = false;
             }
+        }
+
+        // After hiding the chrome, the section-specific content (which the
+        // teammate placed at y~470+ in the UC) leaves a big empty band at top.
+        // Slide everything still visible up so the section starts at y=20.
+        private static void ShiftContentToTop(Control container)
+        {
+            var visible = container.Controls.Cast<Control>().Where(c => c.Visible).ToList();
+            if (visible.Count == 0) return;
+            int minY = visible.Min(c => c.Top);
+            int offset = minY - 20;
+            if (offset <= 0) return;
+            foreach (var c in visible) c.Top -= offset;
         }
 
         private void HighlightActiveTab(Guna.UI2.WinForms.Guna2Button active)
@@ -172,5 +196,10 @@ namespace Grow2Go1.Views
         private void guna2Button4_Click(object sender, EventArgs e) { }
         private void guna2Button1_Click(object sender, EventArgs e) { }
         private void guna2HtmlLabel2_Click(object sender, EventArgs e) { }
+
+        private void FarmMapButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

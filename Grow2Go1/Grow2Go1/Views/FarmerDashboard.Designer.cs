@@ -72,22 +72,22 @@
             // FarmerDashboardLabel
             // 
             this.FarmerDashboardLabel.BackColor = System.Drawing.Color.Transparent;
-            this.FarmerDashboardLabel.Font = new System.Drawing.Font("Segoe UI", 45F, System.Drawing.FontStyle.Bold);
+            this.FarmerDashboardLabel.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold);
             this.FarmerDashboardLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(255)))), ((int)(((byte)(84)))));
-            this.FarmerDashboardLabel.Location = new System.Drawing.Point(57, 197);
+            this.FarmerDashboardLabel.Location = new System.Drawing.Point(57, 210);
             this.FarmerDashboardLabel.Name = "FarmerDashboardLabel";
-            this.FarmerDashboardLabel.Size = new System.Drawing.Size(655, 102);
+            this.FarmerDashboardLabel.Size = new System.Drawing.Size(700, 70);
             this.FarmerDashboardLabel.TabIndex = 0;
             this.FarmerDashboardLabel.Text = "Farmer Dashboard";
             // 
             // Tagline
             // 
             this.Tagline.BackColor = System.Drawing.Color.Transparent;
-            this.Tagline.Font = new System.Drawing.Font("Segoe UI", 17F, System.Drawing.FontStyle.Bold);
+            this.Tagline.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular);
             this.Tagline.ForeColor = System.Drawing.Color.White;
-            this.Tagline.Location = new System.Drawing.Point(65, 305);
+            this.Tagline.Location = new System.Drawing.Point(65, 290);
             this.Tagline.Name = "Tagline";
-            this.Tagline.Size = new System.Drawing.Size(535, 40);
+            this.Tagline.Size = new System.Drawing.Size(600, 32);
             this.Tagline.TabIndex = 1;
             this.Tagline.Text = "Manage your farm, products, and orders";
             this.Tagline.Click += new System.EventHandler(this.guna2HtmlLabel2_Click);
@@ -117,7 +117,7 @@
             this.FarmProfileButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.FarmProfileButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.FarmProfileButton.FillColor = System.Drawing.Color.Transparent;
-            this.FarmProfileButton.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FarmProfileButton.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FarmProfileButton.ForeColor = System.Drawing.Color.Black;
             this.FarmProfileButton.Location = new System.Drawing.Point(1338, 7);
             this.FarmProfileButton.Name = "FarmProfileButton";
@@ -134,7 +134,7 @@
             this.OrdersButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.OrdersButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.OrdersButton.FillColor = System.Drawing.Color.Transparent;
-            this.OrdersButton.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OrdersButton.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OrdersButton.ForeColor = System.Drawing.Color.Black;
             this.OrdersButton.Location = new System.Drawing.Point(894, 7);
             this.OrdersButton.Name = "OrdersButton";
@@ -151,7 +151,7 @@
             this.ProductsButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.ProductsButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.ProductsButton.FillColor = System.Drawing.Color.Transparent;
-            this.ProductsButton.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ProductsButton.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProductsButton.ForeColor = System.Drawing.Color.Black;
             this.ProductsButton.Location = new System.Drawing.Point(450, 6);
             this.ProductsButton.Name = "ProductsButton";
@@ -168,7 +168,7 @@
             this.OverviewButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.OverviewButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.OverviewButton.FillColor = System.Drawing.Color.White;
-            this.OverviewButton.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold);
+            this.OverviewButton.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.OverviewButton.ForeColor = System.Drawing.Color.Black;
             this.OverviewButton.Location = new System.Drawing.Point(8, 6);
             this.OverviewButton.Name = "OverviewButton";
@@ -411,7 +411,7 @@
             this.guna2CustomGradientPanel1.TabIndex = 9;
             // 
             // MenuButton
-            //
+            // 
             this.MenuButton.BackgroundImage = global::Grow2Go1.Properties.Resources.List;
             this.MenuButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.MenuButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -439,12 +439,13 @@
             this.FarmMapButton.Image = global::Grow2Go1.Properties.Resources.Location_Icon;
             this.FarmMapButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.FarmMapButton.ImageSize = new System.Drawing.Size(40, 40);
-            this.FarmMapButton.Location = new System.Drawing.Point(1473, 32);
+            this.FarmMapButton.Location = new System.Drawing.Point(1475, 32);
             this.FarmMapButton.Name = "FarmMapButton";
-            this.FarmMapButton.Size = new System.Drawing.Size(196, 67);
+            this.FarmMapButton.Size = new System.Drawing.Size(194, 67);
             this.FarmMapButton.TabIndex = 5;
             this.FarmMapButton.Text = "Farm Map";
             this.FarmMapButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.FarmMapButton.Click += new System.EventHandler(this.FarmMapButton_Click);
             // 
             // MarketplaceButton
             // 
