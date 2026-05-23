@@ -26,8 +26,8 @@ namespace Grow2Go1.Views
             "guna2CustomGradientPanel1", "guna2CustomGradientPanel2"
         };
 
-        // Overview-only controls (stat cards, recent-orders panel) — hidden when
-        // a section UC is shown.
+        // Overview-only controls (stat cards, recent-orders panel) - hidden
+        // when a section UC is shown.
         private List<Control> _overviewOnlyControls;
 
         // Section host area sits just below the tab strip.
@@ -47,7 +47,7 @@ namespace Grow2Go1.Views
 
         private void FarmerDashboard_Load(object sender, EventArgs e)
         {
-            // Configure Marketplace button styling
+            // Marketplace button look (designer already binds the cart icon).
             MarketplaceButton.Text = "Marketplace";
             MarketplaceButton.TextAlign = HorizontalAlignment.Right;
             MarketplaceButton.FillColor = Color.Transparent;
@@ -56,6 +56,22 @@ namespace Grow2Go1.Views
             MarketplaceButton.Font = new Font("Segoe UI", 10, FontStyle.Bold);
             MarketplaceButton.ImageSize = new Size(20, 20);
             MarketplaceButton.ImageAlign = HorizontalAlignment.Left;
+
+            // Shrink the oversized designer fonts at runtime so they don't get
+            // overwritten every time VS regenerates Designer.cs.
+            FarmerDashboardLabel.Font = new Font("Segoe UI", 30F, FontStyle.Bold);
+            FarmerDashboardLabel.Size = new Size(700, 70);
+            FarmerDashboardLabel.Location = new Point(57, 210);
+
+            Tagline.Font = new Font("Segoe UI", 13F, FontStyle.Regular);
+            Tagline.Size = new Size(600, 32);
+            Tagline.Location = new Point(65, 290);
+
+            var tabFont = new Font("Segoe UI", 14F, FontStyle.Bold);
+            OverviewButton.Font = tabFont;
+            ProductsButton.Font = tabFont;
+            OrdersButton.Font = tabFont;
+            FarmProfileButton.Font = tabFont;
 
             if (_currentUser != null)
             {
@@ -67,7 +83,6 @@ namespace Grow2Go1.Views
                 .Where(c => !ChromeNames.Contains(c.Name))
                 .ToList();
 
-            // Wire the four top-nav tabs on the main form.
             OverviewButton.Click += (s, ev) => ShowOverview();
             ProductsButton.Click += (s, ev) => ShowProducts();
             OrdersButton.Click += (s, ev) => ShowOrders();
@@ -118,11 +133,10 @@ namespace Grow2Go1.Views
 
         private void MountSection(UserControl section)
         {
-            // Hide the redundant header/tab chrome each UserControl carries
-            // (the teammate built every section as a full-page layout), then
-            // shift the remaining section content up so it starts at the top
-            // of the UC. The parent form's chrome stays put — that's why icons
-            // no longer "move" between tabs.
+            // The teammate built each section as a full-page layout that bakes
+            // in its own copy of the logo/nav/title/tab strip. Hide that
+            // duplicate chrome and slide the remaining section-specific content
+            // up so the section starts cleanly below the parent's tab strip.
             HideChromeIn(section);
             ShiftContentToTop(section);
 
@@ -182,9 +196,8 @@ namespace Grow2Go1.Views
             var tabs = new[] { OverviewButton, ProductsButton, OrdersButton, FarmProfileButton };
             foreach (var tab in tabs)
             {
-                bool isActive = tab == active;
-                tab.FillColor = isActive ? Color.White : Color.Transparent;
-                tab.ForeColor = isActive ? Color.Black : Color.Black;
+                tab.FillColor = tab == active ? Color.White : Color.Transparent;
+                tab.ForeColor = Color.Black;
             }
         }
 
@@ -196,10 +209,7 @@ namespace Grow2Go1.Views
         private void guna2Button4_Click(object sender, EventArgs e) { }
         private void guna2Button1_Click(object sender, EventArgs e) { }
         private void guna2HtmlLabel2_Click(object sender, EventArgs e) { }
-
-        private void FarmMapButton_Click(object sender, EventArgs e)
-        {
-
-        }
+        private void FarmMapButton_Click(object sender, EventArgs e) { }
+        private void ProductsButton_Click(object sender, EventArgs e) { }
     }
 }
