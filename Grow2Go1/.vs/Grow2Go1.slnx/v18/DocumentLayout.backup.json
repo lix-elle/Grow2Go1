@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\views\\orders\\orders2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\users\\lester\\downloads\\appsdev\\lix-elle\\grow2go1\\grow2go1\\grow2go1\\views\\orders\\orders2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\grow2go1\\views\\orders\\orders2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\views\\orders\\orders2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\users\\lester\\downloads\\appsdev\\lix-elle\\grow2go1\\grow2go1\\grow2go1\\views\\customerdashboard\\customerdashboard5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\grow2go1\\views\\customerdashboard\\customerdashboard5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\views\\customerdashboard\\customerdashboard5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\users\\lester\\downloads\\appsdev\\lix-elle\\grow2go1\\grow2go1\\grow2go1\\views\\customerdashboard\\customerdashboard1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\grow2go1\\views\\customerdashboard\\customerdashboard1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\views\\customerdashboard\\customerdashboard1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -66,8 +66,7 @@
               "ToolTip": "C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\CustomerDashboard\\CustomerDashboard5.cs [Design]",
               "RelativeToolTip": "Grow2Go1\\Views\\CustomerDashboard\\CustomerDashboard5.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T16:55:29.493Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-05-25T16:55:29.493Z"
             },
             {
               "$type": "Document",
@@ -78,8 +77,7 @@
               "ToolTip": "C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\CustomerDashboard\\CustomerDashboard1.cs [Design]",
               "RelativeToolTip": "Grow2Go1\\Views\\CustomerDashboard\\CustomerDashboard1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T16:55:26.368Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-05-25T16:55:26.368Z"
             }
           ]
         }

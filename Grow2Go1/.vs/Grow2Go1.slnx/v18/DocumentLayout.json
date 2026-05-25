@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\users\\lester\\downloads\\appsdev\\lix-elle\\grow2go1\\grow2go1\\grow2go1\\views\\orders\\orders2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\views\\orders\\orders2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\users\\lester\\downloads\\appsdev\\lix-elle\\grow2go1\\grow2go1\\grow2go1\\views\\savedfarms\\savedfarms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\views\\savedfarms\\savedfarms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\grow2go1\\views\\orders\\orders2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\views\\orders\\orders2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\users\\lester\\downloads\\appsdev\\lix-elle\\grow2go1\\grow2go1\\grow2go1\\views\\savedfarms\\savedfarms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\views\\savedfarms\\savedfarms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\grow2go1\\views\\customerdashboard\\customerdashboard5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\views\\customerdashboard\\customerdashboard5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\users\\lester\\downloads\\appsdev\\lix-elle\\grow2go1\\grow2go1\\grow2go1\\views\\customerdashboard\\customerdashboard2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\views\\customerdashboard\\customerdashboard2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\grow2go1\\views\\customerdashboard\\customerdashboard1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|c:\\users\\lester\\downloads\\appsdev\\lix-elle\\grow2go1\\grow2go1\\grow2go1\\views\\customerdashboard\\customerdashboard1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4FEA9195-8D60-41D3-8157-D9F4F2AF54D8}|Grow2Go1\\Grow2Go1.csproj|solutionrelative:grow2go1\\views\\customerdashboard\\customerdashboard1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -26,47 +26,48 @@
       "DocumentGroups": [
         {
           "DockedHeight": 223,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Orders2.cs",
-              "DocumentMoniker": "C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\Orders\\Orders2.cs",
-              "RelativeDocumentMoniker": "Grow2Go1\\Views\\Orders\\Orders2.cs",
-              "ToolTip": "C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\Orders\\Orders2.cs",
-              "RelativeToolTip": "Grow2Go1\\Views\\Orders\\Orders2.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
+              "Title": "SavedFarms.cs",
+              "DocumentMoniker": "C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\SavedFarms\\SavedFarms.cs",
+              "RelativeDocumentMoniker": "Grow2Go1\\Views\\SavedFarms\\SavedFarms.cs",
+              "ToolTip": "C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\SavedFarms\\SavedFarms.cs",
+              "RelativeToolTip": "Grow2Go1\\Views\\SavedFarms\\SavedFarms.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAwwM4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T17:35:00.031Z",
+              "WhenOpened": "2026-05-25T18:55:34.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Orders2.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\Orders\\Orders2.cs",
-              "RelativeDocumentMoniker": "Grow2Go1\\Views\\Orders\\Orders2.cs",
-              "ToolTip": "C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\Orders\\Orders2.cs [Design]",
-              "RelativeToolTip": "Grow2Go1\\Views\\Orders\\Orders2.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T16:55:47.287Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CustomerDashboard5.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\CustomerDashboard\\CustomerDashboard5.cs",
-              "RelativeDocumentMoniker": "Grow2Go1\\Views\\CustomerDashboard\\CustomerDashboard5.cs",
-              "ToolTip": "C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\CustomerDashboard\\CustomerDashboard5.cs [Design]",
-              "RelativeToolTip": "Grow2Go1\\Views\\CustomerDashboard\\CustomerDashboard5.cs [Design]",
+              "Title": "CustomerDashboard2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\CustomerDashboard\\CustomerDashboard2.cs",
+              "RelativeDocumentMoniker": "Grow2Go1\\Views\\CustomerDashboard\\CustomerDashboard2.cs",
+              "ToolTip": "C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\CustomerDashboard\\CustomerDashboard2.cs [Design]",
+              "RelativeToolTip": "Grow2Go1\\Views\\CustomerDashboard\\CustomerDashboard2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T16:55:29.493Z"
+              "WhenOpened": "2026-05-25T18:47:43.95Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -77,7 +78,20 @@
               "ToolTip": "C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\CustomerDashboard\\CustomerDashboard1.cs [Design]",
               "RelativeToolTip": "Grow2Go1\\Views\\CustomerDashboard\\CustomerDashboard1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T16:55:26.368Z"
+              "WhenOpened": "2026-05-25T18:47:26.195Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SavedFarms.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\SavedFarms\\SavedFarms.cs",
+              "RelativeDocumentMoniker": "Grow2Go1\\Views\\SavedFarms\\SavedFarms.cs",
+              "ToolTip": "C:\\Users\\Lester\\Downloads\\appsdev\\lix-elle\\Grow2Go1\\Grow2Go1\\Grow2Go1\\Views\\SavedFarms\\SavedFarms.cs [Design]",
+              "RelativeToolTip": "Grow2Go1\\Views\\SavedFarms\\SavedFarms.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T18:22:41.823Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
