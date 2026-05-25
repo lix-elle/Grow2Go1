@@ -88,3 +88,6 @@ C:\Users\Lester\Downloads\appsdev\lix-elle\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\
 C:\Users\Lester\Downloads\appsdev\lix-elle\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.csproj.Up2Date
 C:\Users\Lester\Downloads\appsdev\lix-elle\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.exe
 C:\Users\Lester\Downloads\appsdev\lix-elle\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.pdb
+C:\Users\Lester\Downloads\appsdev\lix-elle\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.Views.CustomerDashboard.CustomerDashboard1.resources
+C:\Users\Lester\Downloads\appsdev\lix-elle\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.Views.CustomerDashboard.CustomerDashboard3.resources
+C:\Users\Lester\Downloads\appsdev\lix-elle\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.Views.CustomerDashboard.CustomerDashboard2.resources
