@@ -95,3 +95,4 @@ C:\Users\Lester\Downloads\appsdev\lix-elle\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\
 C:\Users\Lester\Downloads\appsdev\lix-elle\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.Views.CustomerDashboard.CustomerDashboard5.resources
 C:\Users\Lester\Downloads\appsdev\lix-elle\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.Views.CustomerProfile.CustomerProfile.resources
 C:\Users\Lester\Downloads\appsdev\lix-elle\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.Views.Orders.Orders1.resources
+C:\Users\Lester\Downloads\appsdev\lix-elle\Grow2Go1\Grow2Go1\Grow2Go1\obj\Debug\Grow2Go1.Views.Orders.Orders2.resources

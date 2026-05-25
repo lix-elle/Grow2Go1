@@ -1084,7 +1084,6 @@
             this.guna2ImageButton1.BackColor = System.Drawing.Color.Transparent;
             this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Image = global::Grow2Go1.Properties.Resources.Ellipse_17;
             this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton1.ImageRotate = 0F;
             this.guna2ImageButton1.Location = new System.Drawing.Point(6, 3);
@@ -1121,12 +1120,11 @@
             this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Image = global::Grow2Go1.Properties.Resources.Location_Icon;
             this.guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button2.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button2.Location = new System.Drawing.Point(1490, 27);
+            this.guna2Button2.Location = new System.Drawing.Point(1507, 27);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(182, 42);
+            this.guna2Button2.Size = new System.Drawing.Size(164, 42);
             this.guna2Button2.TabIndex = 4;
             this.guna2Button2.Text = "Farms";
             this.guna2Button2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1144,7 +1142,6 @@
             this.guna2Button3.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button3.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Image = global::Grow2Go1.Properties.Resources.List;
             this.guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.guna2Button3.ImageSize = new System.Drawing.Size(50, 50);
             this.guna2Button3.Location = new System.Drawing.Point(1644, 27);
@@ -1166,7 +1163,6 @@
             this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Image = global::Grow2Go1.Properties.Resources.Cart_Icon;
             this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button1.ImageSize = new System.Drawing.Size(40, 40);
             this.guna2Button1.Location = new System.Drawing.Point(1261, 27);
@@ -1181,7 +1177,6 @@
             this.guna2Panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2Panel1.BackgroundImage = global::Grow2Go1.Properties.Resources.Default;
             this.guna2Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.guna2Panel1.Location = new System.Drawing.Point(3, 0);
             this.guna2Panel1.Name = "guna2Panel1";

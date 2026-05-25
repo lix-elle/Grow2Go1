@@ -63,6 +63,26 @@ namespace Grow2Go1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _124 {
+            get {
+                object obj = ResourceManager.GetObject("124", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arrow_green {
+            get {
+                object obj = ResourceManager.GetObject("arrow green", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap backBtn {
             get {
                 object obj = ResourceManager.GetObject("backBtn", resourceCulture);
@@ -76,16 +96,6 @@ namespace Grow2Go1.Properties {
         internal static System.Drawing.Bitmap Background {
             get {
                 object obj = ResourceManager.GetObject("Background", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Background__1_ {
-            get {
-                object obj = ResourceManager.GetObject("Background (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,6 +183,26 @@ namespace Grow2Go1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap car {
+            get {
+                object obj = ResourceManager.GetObject("car", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap carbroom {
+            get {
+                object obj = ResourceManager.GetObject("carbroom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Cart_Icon {
             get {
                 object obj = ResourceManager.GetObject("Cart Icon", resourceCulture);
@@ -183,9 +213,39 @@ namespace Grow2Go1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CHECK {
+            get {
+                object obj = ResourceManager.GetObject("CHECK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap choice_2 {
             get {
                 object obj = ResourceManager.GetObject("choice 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap contact_farmer {
+            get {
+                object obj = ResourceManager.GetObject("contact farmer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap contact_farmer1 {
+            get {
+                object obj = ResourceManager.GetObject("contact farmer1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -283,6 +343,16 @@ namespace Grow2Go1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FARMERPROFILE {
+            get {
+                object obj = ResourceManager.GetObject("FARMERPROFILE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Favorite {
             get {
                 object obj = ResourceManager.GetObject("Favorite", resourceCulture);
@@ -334,6 +404,26 @@ namespace Grow2Go1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap HOENY {
+            get {
+                object obj = ResourceManager.GetObject("HOENY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Horizontal_Divider {
+            get {
+                object obj = ResourceManager.GetObject("Horizontal Divider", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hours {
             get {
                 object obj = ResourceManager.GetObject("hours", resourceCulture);
@@ -347,6 +437,16 @@ namespace Grow2Go1.Properties {
         internal static System.Drawing.Bitmap Icon {
             get {
                 object obj = ResourceManager.GetObject("Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap KALE_LEAF {
+            get {
+                object obj = ResourceManager.GetObject("KALE LEAF", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -374,6 +474,16 @@ namespace Grow2Go1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap location_green1 {
+            get {
+                object obj = ResourceManager.GetObject("location green1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Location_Icon {
             get {
                 object obj = ResourceManager.GetObject("Location Icon", resourceCulture);
@@ -394,6 +504,16 @@ namespace Grow2Go1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Location_Icon2 {
+            get {
+                object obj = ResourceManager.GetObject("Location Icon2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LoginBackground {
             get {
                 object obj = ResourceManager.GetObject("LoginBackground", resourceCulture);
@@ -407,6 +527,46 @@ namespace Grow2Go1.Properties {
         internal static System.Drawing.Bitmap logo {
             get {
                 object obj = ResourceManager.GetObject("logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Map_View_Card {
+            get {
+                object obj = ResourceManager.GetObject("Map View Card", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Map_View_Card1 {
+            get {
+                object obj = ResourceManager.GetObject("Map View Card1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Map_View_Card2 {
+            get {
+                object obj = ResourceManager.GetObject("Map View Card2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Map_View_Card3 {
+            get {
+                object obj = ResourceManager.GetObject("Map View Card3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -457,6 +617,36 @@ namespace Grow2Go1.Properties {
         internal static System.Drawing.Bitmap Product_Pop_up_Tomato_ {
             get {
                 object obj = ResourceManager.GetObject("Product Pop-up(Tomato)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PUMKIN {
+            get {
+                object obj = ResourceManager.GetObject("PUMKIN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap questongreen {
+            get {
+                object obj = ResourceManager.GetObject("questongreen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap questongreen1 {
+            get {
+                object obj = ResourceManager.GetObject("questongreen1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

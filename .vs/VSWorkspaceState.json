@@ -3,8 +3,10 @@
     "",
     "\\Grow2Go1",
     "\\Grow2Go1\\Grow2Go1",
-    "\\Grow2Go1\\Grow2Go1\\Repositories"
+    "\\Grow2Go1\\Grow2Go1\\Repositories",
+    "\\Grow2Go1\\Grow2Go1\\Views",
+    "\\Grow2Go1\\Grow2Go1\\Views\\CustomerDashboard"
   ],
-  "SelectedNode": "\\Grow2Go1\\Grow2Go1\\Repositories\\UserRepository.cs",
+  "SelectedNode": "\\Grow2Go1\\Grow2Go1\\Views\\CustomerDashboard\\CustomerDashboard1.cs",
   "PreviewInSolutionExplorer": false
 }
