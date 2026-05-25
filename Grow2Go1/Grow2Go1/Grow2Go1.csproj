@@ -144,11 +144,23 @@
     <Compile Include="Views\CustomerDashboard\CustomerDashboard5.Designer.cs">
       <DependentUpon>CustomerDashboard5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\CustomerProfile\CustomerProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CustomerProfile\CustomerProfile.Designer.cs">
+      <DependentUpon>CustomerProfile.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Orders\Orders1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Orders\Orders1.Designer.cs">
+      <DependentUpon>Orders1.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -170,8 +182,14 @@
     <EmbeddedResource Include="Views\CustomerDashboard\CustomerDashboard5.resx">
       <DependentUpon>CustomerDashboard5.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\CustomerProfile\CustomerProfile.resx">
+      <DependentUpon>CustomerProfile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Orders\Orders1.resx">
+      <DependentUpon>Orders1.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -190,8 +208,11 @@
   <ItemGroup>
     <None Include="Resources\LoginBackground.png" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <Folder Include="Views\SavedFarms\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\redheart.png" />
     <None Include="Assets\tawo.png" />
     <None Include="Assets\Vector %281%29.png" />
     <None Include="Assets\Phone icon.png" />
@@ -209,6 +230,12 @@
     <None Include="Resources\Ellipse 17.png" />
     <None Include="Resources\choice 2.png" />
     <None Include="Assets\backBtn.png" />
+    <None Include="Assets\Background %285%29.png" />
+    <None Include="Assets\Background %284%29.png" />
+    <None Include="Assets\Background %283%29.png" />
+    <None Include="Assets\Background %282%29.png" />
+    <None Include="Assets\Background %281%29.png" />
+    <None Include="Assets\Background.png" />
     <Content Include="Assets\bgFinal.png" />
     <None Include="Assets\phoneIcon.png" />
     <None Include="Assets\customerIcon.png" />
@@ -216,6 +243,9 @@
     <None Include="Assets\Cart Icon.png" />
     <None Include="Assets\bitcoin-icons_cart-outline.png" />
     <None Include="Assets\Ellipse 2.png" />
+    <None Include="Assets\Ellipse 18.png" />
+    <None Include="Assets\Container.png" />
+    <None Include="Assets\Button.png" />
     <Content Include="Assets\email_icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -229,6 +259,7 @@
     <None Include="Assets\Favorite.png" />
     <None Include="Assets\location green.png" />
     <None Include="Assets\hours.png" />
+    <None Include="Assets\Icon.png" />
     <Content Include="Assets\LoginBackground.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
