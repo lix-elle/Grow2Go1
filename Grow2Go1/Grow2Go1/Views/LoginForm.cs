@@ -98,7 +98,7 @@ namespace Grow2Go1.Views
             }
             else if (user.Role == "customer")
             {
-                var dashboard = new CustomerDashboard(user);
+                var dashboard = new CustomerDashboardForm(user);
                 dashboard.Show();
             }
 

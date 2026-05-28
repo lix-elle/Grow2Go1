@@ -130,6 +130,60 @@
     <Compile Include="Views\CustomerDashboard.Designer.cs">
       <DependentUpon>CustomerDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\CustomerDashboard\CustomerDashboard1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\CustomerDashboard\CustomerDashboard1.Designer.cs">
+      <DependentUpon>CustomerDashboard1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CustomerDashboard\CustomerDashboard2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CustomerDashboard\CustomerDashboard2.Designer.cs">
+      <DependentUpon>CustomerDashboard2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CustomerDashboard\CustomerDashboard3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CustomerDashboard\CustomerDashboard3.Designer.cs">
+      <DependentUpon>CustomerDashboard3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CustomerDashboard\CustomerDashboard4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CustomerDashboard\CustomerDashboard4.Designer.cs">
+      <DependentUpon>CustomerDashboard4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CustomerDashboard\CustomerDashboard5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CustomerDashboard\CustomerDashboard5.Designer.cs">
+      <DependentUpon>CustomerDashboard5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CustomerProfile\CustomerProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CustomerProfile\CustomerProfile.Designer.cs">
+      <DependentUpon>CustomerProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Orders\Orders1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Orders\Orders1.Designer.cs">
+      <DependentUpon>Orders1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Orders\Orders2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Orders\Orders2.Designer.cs">
+      <DependentUpon>Orders2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SavedFarms\SavedFarms.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\SavedFarms\SavedFarms.Designer.cs">
+      <DependentUpon>SavedFarms.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\FarmerDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,6 +233,33 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\FarmerDashboard3.resx">
       <DependentUpon>FarmerDashboard3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CustomerDashboard\CustomerDashboard1.resx">
+      <DependentUpon>CustomerDashboard1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CustomerDashboard\CustomerDashboard2.resx">
+      <DependentUpon>CustomerDashboard2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CustomerDashboard\CustomerDashboard3.resx">
+      <DependentUpon>CustomerDashboard3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CustomerDashboard\CustomerDashboard4.resx">
+      <DependentUpon>CustomerDashboard4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CustomerDashboard\CustomerDashboard5.resx">
+      <DependentUpon>CustomerDashboard5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CustomerProfile\CustomerProfile.resx">
+      <DependentUpon>CustomerProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Orders\Orders1.resx">
+      <DependentUpon>Orders1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Orders\Orders2.resx">
+      <DependentUpon>Orders2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SavedFarms\SavedFarms.resx">
+      <DependentUpon>SavedFarms.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

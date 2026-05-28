@@ -1,6 +1,6 @@
 ﻿namespace Grow2Go1.Views
 {
-    partial class CustomerDashboard
+    partial class CustomerDashboardForm
     {
         /// <summary>
         /// Required designer variable.
