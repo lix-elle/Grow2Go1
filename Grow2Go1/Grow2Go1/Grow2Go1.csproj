@@ -124,11 +124,11 @@
     </Compile>
     <Compile Include="Repositories\ProductRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
-    <Compile Include="Views\CustomerDashboard.cs">
+    <Compile Include="Views\CustomerDashboardForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\CustomerDashboard.Designer.cs">
-      <DependentUpon>CustomerDashboard.cs</DependentUpon>
+    <Compile Include="Views\CustomerDashboardForm.Designer.cs">
+      <DependentUpon>CustomerDashboardForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\CustomerDashboard\CustomerDashboard1.cs">
       <SubType>Form</SubType>

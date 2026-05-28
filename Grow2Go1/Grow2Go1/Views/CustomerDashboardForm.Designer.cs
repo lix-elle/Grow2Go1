@@ -1,4 +1,4 @@
-﻿namespace Grow2Go1.Views
+namespace Grow2Go1.Views
 {
     partial class CustomerDashboardForm
     {

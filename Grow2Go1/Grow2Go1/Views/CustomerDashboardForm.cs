@@ -1,4 +1,4 @@
-﻿using Grow2Go.Models;
+using Grow2Go.Models;
 using System;
 using System.Windows.Forms;
 
