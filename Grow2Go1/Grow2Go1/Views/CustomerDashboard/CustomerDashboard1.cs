@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Grow2Go.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,12 @@ namespace Grow2Go1.Views.CustomerDashboard
 {
     public partial class CustomerDashboard1 : Form
     {
-        public CustomerDashboard1()
+        private User _currentUser;
+
+        public CustomerDashboard1(User user)
         {
             InitializeComponent();
+            _currentUser = user;
         }
 
         private void Form1_Load(object sender, EventArgs e)

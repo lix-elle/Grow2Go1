@@ -1,5 +1,6 @@
 ﻿using Grow2Go.Repositories;
 using Grow2Go.Models;
+using Grow2Go1.Views.CustomerDashboard;
 using System;
 using System.Drawing;
 using System.Runtime.InteropServices;
@@ -98,7 +99,7 @@ namespace Grow2Go1.Views
             }
             else if (user.Role == "customer")
             {
-                var dashboard = new CustomerDashboardForm(user);
+                var dashboard = new CustomerDashboard1(user);
                 dashboard.Show();
             }
 
