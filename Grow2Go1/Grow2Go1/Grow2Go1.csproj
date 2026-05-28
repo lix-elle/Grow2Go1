@@ -105,6 +105,7 @@
     <Compile Include="Helpers\DBConnection.cs" />
     <Compile Include="Helpers\SessionManager.cs" />
     <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\OrderItem.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Program.cs" />
@@ -113,6 +114,13 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Repositories\OrderRepository.cs" />
+    <Compile Include="Views\AddProductControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\AddProductControl.Designer.cs">
+      <DependentUpon>AddProductControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Repositories\ProductRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
@@ -156,6 +164,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AddProductControl.resx">
+      <DependentUpon>AddProductControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\FarmerDashboard.resx">
       <DependentUpon>FarmerDashboard.cs</DependentUpon>
@@ -213,6 +224,8 @@
     <None Include="Assets\Location Icon.png" />
     <None Include="Assets\iconamoon_edit.png" />
     <None Include="Assets\hugeicons_view.png" />
+    <Content Include="Assets\greencarticon.png" />
+    <Content Include="Assets\greenlocationicon.png" />
     <Content Include="Assets\LoginBackground.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

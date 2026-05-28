@@ -143,6 +143,26 @@ namespace Grow2Go1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap greencarticon {
+            get {
+                object obj = ResourceManager.GetObject("greencarticon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap greenlocationicon {
+            get {
+                object obj = ResourceManager.GetObject("greenlocationicon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hugeicons_view {
             get {
                 object obj = ResourceManager.GetObject("hugeicons_view", resourceCulture);
