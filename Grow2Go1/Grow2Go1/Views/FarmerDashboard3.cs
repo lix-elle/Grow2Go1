@@ -2,6 +2,7 @@
 using MySql.Data.MySqlClient;
 using System;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 
 namespace Grow2Go1.Views
@@ -11,6 +12,7 @@ namespace Grow2Go1.Views
         private int _farmId;
         private int _userId;
         private bool _profileLoaded = false;
+        private string _profilePicPath = "";
 
         public FarmerDashboard3()
         {
@@ -46,12 +48,14 @@ namespace Grow2Go1.Views
                 {
                     conn.Open();
                     string query = @"
-                        SELECT f.farm_name, f.location, f.description,
-                               f.phone_number, f.delivery_zones, f.delivery_days,
-                               u.full_name AS owner_name
-                        FROM farms f
-                        JOIN users u ON f.user_id = u.user_id
-                        WHERE f.farm_id = @farmId";
+                    SELECT f.farm_name, f.location, f.description,
+                           COALESCE(NULLIF(f.phone_number, ''), u.phone) AS phone_number,
+                           f.delivery_zones, f.delivery_days,
+                           f.profile_pic_path,
+                           u.full_name AS owner_name
+                    FROM farms f
+                    JOIN users u ON f.user_id = u.user_id
+                    WHERE f.farm_id = @farmId";
 
                     using (var cmd = new MySqlCommand(query, conn))
                     {
@@ -67,6 +71,14 @@ namespace Grow2Go1.Views
                                 txtPhoneNumber.Text = reader.IsDBNull(reader.GetOrdinal("phone_number")) ? "" : reader.GetString("phone_number");
                                 txtDeliveryZones.Text = reader.IsDBNull(reader.GetOrdinal("delivery_zones")) ? "" : reader.GetString("delivery_zones");
                                 txtDeliveryDays.Text = reader.IsDBNull(reader.GetOrdinal("delivery_days")) ? "" : reader.GetString("delivery_days");
+                                _profilePicPath = reader.IsDBNull(reader.GetOrdinal("profile_pic_path"))
+                  ? "" : reader.GetString("profile_pic_path");
+
+                                if (!string.IsNullOrEmpty(_profilePicPath) && File.Exists(_profilePicPath))
+                                {
+                                    picFarmProfile.Image = Image.FromFile(_profilePicPath);
+                                    picFarmProfile.SizeMode = PictureBoxSizeMode.Zoom;
+                                }
                             }
                         }
                     }
@@ -88,14 +100,15 @@ namespace Grow2Go1.Views
                 {
                     conn.Open();
                     string query = @"
-                        UPDATE farms SET
-                            farm_name       = @farmName,
-                            location        = @location,
-                            description     = @description,
-                            phone_number    = @phone,
-                            delivery_zones  = @zones,
-                            delivery_days   = @days
-                        WHERE farm_id = @farmId";
+                UPDATE farms SET
+                farm_name        = @farmName,
+                 location         = @location,
+               description      = @description,
+                  phone_number     = @phone,
+              delivery_zones   = @zones,
+              delivery_days    = @days,
+             profile_pic_path = @picPath
+                WHERE farm_id = @farmId";
 
                     using (var cmd = new MySqlCommand(query, conn))
                     {
@@ -106,6 +119,7 @@ namespace Grow2Go1.Views
                         cmd.Parameters.AddWithValue("@zones", txtDeliveryZones.Text.Trim());
                         cmd.Parameters.AddWithValue("@days", txtDeliveryDays.Text.Trim());
                         cmd.Parameters.AddWithValue("@farmId", _farmId);
+                        cmd.Parameters.AddWithValue("@picPath", _profilePicPath);
                         cmd.ExecuteNonQuery();
                     }
                 }
@@ -147,6 +161,7 @@ namespace Grow2Go1.Views
             // Toggle buttons
             btnEdit.Visible = !isEditing;
             SaveButton.Visible = isEditing;
+            btnChangePic.Visible = isEditing;
         }
 
         // ── Edit button ──────────────────────────────────────────────────────
@@ -184,6 +199,7 @@ namespace Grow2Go1.Views
         private void btnEdit_Click_1(object sender, EventArgs e)
         {
             SetEditMode(true);
+            
         }
 
         private void SaveButton_Click_1(object sender, EventArgs e)
@@ -197,6 +213,44 @@ namespace Grow2Go1.Views
 
             SaveFarmProfile();
             SetEditMode(false);
+        }
+
+        private void FarmerDashboard3_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnChangePic_Click(object sender, EventArgs e)
+        {
+            using (var dlg = new OpenFileDialog())
+            {
+                dlg.Title = "Select Farm Profile Photo";
+                dlg.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp";
+
+                if (dlg.ShowDialog() == DialogResult.OK)
+                {
+                    string folder = @"C:\Programming\C#\Grow2Go1\ProductImages";
+                    if (!Directory.Exists(folder))
+                        Directory.CreateDirectory(folder);
+
+                    string ext = Path.GetExtension(dlg.FileName);
+                    string fileName = "farm_" + _farmId + "_profile" + ext;
+                    string destPath = Path.Combine(folder, fileName);
+
+                    // ── Release file lock first ───────────────────────────
+                    if (picFarmProfile.Image != null)
+                    {
+                        picFarmProfile.Image.Dispose();
+                        picFarmProfile.Image = null;
+                    }
+
+                    File.Copy(dlg.FileName, destPath, overwrite: true);
+
+                    _profilePicPath = destPath;
+                    picFarmProfile.Image = Image.FromFile(destPath);
+                    picFarmProfile.SizeMode = PictureBoxSizeMode.Zoom;
+                }
+            }
         }
     }
 }

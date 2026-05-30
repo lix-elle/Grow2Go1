@@ -149,5 +149,49 @@ namespace Grow2Go1.Repositories
             }
         }
 
+        public List<Product> GetAllAvailableProducts()
+        {
+            var products = new List<Product>();
+
+            using (var conn = new MySqlConnection(_connectionString))
+            {
+                conn.Open();
+                string query = @"
+                  SELECT p.product_id, p.farm_id, p.product_name, p.price, p.category,
+                   p.unit, p.image_path, p.description, p.stock_quantity, p.is_available,
+                  f.farm_name, f.profile_pic_path
+            FROM products p
+            JOIN farms f ON p.farm_id = f.farm_id
+            WHERE p.is_available = 1 AND p.stock_quantity > 0
+            ORDER BY p.product_name";
+
+                using (var cmd = new MySqlCommand(query, conn))
+                using (var reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        products.Add(new Product
+                        {
+                            ProductId = reader.GetInt32("product_id"),
+                            FarmId = reader.GetInt32("farm_id"),
+                            Name = reader.GetString("product_name"),
+                            Price = reader.GetDecimal("price"),
+                            Category = reader.IsDBNull(reader.GetOrdinal("category")) ? "" : reader.GetString("category"),
+                            Unit = reader.IsDBNull(reader.GetOrdinal("unit")) ? "" : reader.GetString("unit"),
+                            ImagePath = reader.IsDBNull(reader.GetOrdinal("image_path")) ? "" : reader.GetString("image_path"),
+                            Description = reader.IsDBNull(reader.GetOrdinal("description")) ? "" : reader.GetString("description"),
+                            Stock = reader.GetInt32("stock_quantity"),
+                            IsAvailable = reader.GetBoolean("is_available"),
+                            FarmName = reader.GetString("farm_name"),
+                            FarmProfilePicPath = reader.IsDBNull(reader.GetOrdinal("profile_pic_path"))
+                     ? "" : reader.GetString("profile_pic_path")
+                        });
+
+                    }
+                }
+            }
+
+            return products;
+        }
     }
 }

@@ -252,7 +252,7 @@ namespace Grow2Go1.Views
             if (string.IsNullOrEmpty(sourcePath)) return "";
             try
             {
-                string imagesFolder = Path.Combine(Application.StartupPath, "ProductImages");
+                string imagesFolder = @"C:\Programming\C#\Grow2Go1\ProductImages";
                 Directory.CreateDirectory(imagesFolder);
                 string fileName = Guid.NewGuid() + Path.GetExtension(sourcePath);
                 string destPath = Path.Combine(imagesFolder, fileName);

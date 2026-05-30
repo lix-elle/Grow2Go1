@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Grow2Go1.Views
 {
@@ -146,25 +147,45 @@ namespace Grow2Go1.Views
 
             // ── Customer initials avatar ──
             string initials = GetInitials(order.CustomerName);
+            string customerPicPath = order.CustomerProfilePicPath;
+
             var avatar = new Panel
             {
                 Size = new Size(48, 48),
                 Location = new Point(20, 20),
-                BackColor = Color.FromArgb(200, 200, 200)
+                BackColor = Color.Transparent
             };
+
             avatar.Paint += (s, e) =>
             {
                 e.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
-                using (var brush = new SolidBrush(Color.FromArgb(180, 180, 180)))
-                    e.Graphics.FillEllipse(brush, 0, 0, 47, 47);
-                using (var font = new Font("Segoe UI", 14, FontStyle.Bold))
-                using (var brush = new SolidBrush(Color.White))
+                var bounds = new Rectangle(0, 0, 47, 47);
+
+                if (!string.IsNullOrWhiteSpace(customerPicPath) && File.Exists(customerPicPath))
                 {
-                    var sz = e.Graphics.MeasureString(initials, font);
-                    e.Graphics.DrawString(initials, font, brush,
-                        (48 - sz.Width) / 2f, (48 - sz.Height) / 2f);
+                    try
+                    {
+                        using (var img = Image.FromFile(customerPicPath))
+                        using (var path = new GraphicsPath())
+                        {
+                            path.AddEllipse(bounds);
+                            e.Graphics.SetClip(path);
+                            e.Graphics.InterpolationMode = InterpolationMode.HighQualityBicubic;
+                            e.Graphics.DrawImage(img, bounds);
+                            e.Graphics.ResetClip();
+                        }
+                    }
+                    catch
+                    {
+                        DrawInitialAvatar(e.Graphics, bounds, initials);
+                    }
+                }
+                else
+                {
+                    DrawInitialAvatar(e.Graphics, bounds, initials);
                 }
             };
+
             card.Controls.Add(avatar);
 
             // ── Customer name ──
@@ -238,6 +259,44 @@ namespace Grow2Go1.Views
                     }
                 };
                 card.Controls.Add(confirmBtn);
+            }
+            // ── Confirm Delivery button (only for shipped orders) ──
+
+            // ── Mark as Shipped button (only for confirmed orders) ──
+            if (order.Status == "confirmed")
+            {
+                var shipBtn = new Button
+                {
+                    Text = "🚚  Mark as Shipped",
+                    Font = new Font("Segoe UI", 10, FontStyle.Bold),
+                    ForeColor = Color.White,
+                    BackColor = Color.FromArgb(33, 150, 243),
+                    FlatStyle = FlatStyle.Flat,
+                    Size = new Size(175, 36),
+                    Location = new Point(20, cardHeight - 52),
+                    Cursor = Cursors.Hand
+                };
+                shipBtn.FlatAppearance.BorderSize = 0;
+                shipBtn.Click += (s, e) =>
+                {
+                    var result = MessageBox.Show(
+                        "Mark order from " + order.CustomerName + " as shipped?",
+                        "Mark as Shipped",
+                        MessageBoxButtons.YesNo,
+                        MessageBoxIcon.Question);
+
+                    if (result == DialogResult.Yes)
+                    {
+                        var repo = new OrderRepository();
+                        if (repo.UpdateOrderStatus(order.OrderId, "shipped"))
+                        {
+                            MessageBox.Show("Order marked as shipped! Customer will be notified.",
+                                "Shipped", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            LoadOrders();
+                        }
+                    }
+                };
+                card.Controls.Add(shipBtn);
             }
 
             // ── RIGHT SIDE: Order items ──
@@ -333,6 +392,21 @@ namespace Grow2Go1.Views
             return ("" + fullName[0]).ToUpper();
         }
 
+        private void DrawInitialAvatar(Graphics g, Rectangle bounds, string initials)
+        {
+            using (var brush = new SolidBrush(Color.FromArgb(180, 180, 180)))
+                g.FillEllipse(brush, bounds);
+
+            using (var font = new Font("Segoe UI", 14, FontStyle.Bold))
+            using (var brush = new SolidBrush(Color.White))
+            {
+                var sz = g.MeasureString(initials, font);
+                g.DrawString(initials, font, brush,
+                    bounds.X + (bounds.Width - sz.Width) / 2f,
+                    bounds.Y + (bounds.Height - sz.Height) / 2f);
+            }
+        }
+
         // ── Helper: badge color by status ────────────────────────────────────
         private Color GetStatusColor(string status)
         {
@@ -340,7 +414,8 @@ namespace Grow2Go1.Views
             {
                 case "pending": return Color.FromArgb(255, 193, 7);   // yellow
                 case "confirmed": return Color.FromArgb(76, 175, 80);   // green
-                case "completed": return Color.FromArgb(33, 150, 243);  // blue
+                case "shipped": return Color.FromArgb(33, 150, 243);  // blue
+                case "completed": return Color.FromArgb(76, 175, 80);   // green
                 case "cancelled": return Color.FromArgb(244, 67, 54);   // red
                 default: return Color.Gray;
             }

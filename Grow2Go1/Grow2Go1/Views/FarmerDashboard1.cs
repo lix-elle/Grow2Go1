@@ -362,5 +362,10 @@ namespace Grow2Go1.Views
         private void guna2HtmlLabel3_Click(object sender, EventArgs e) { }
         private void FarmMapButton_Click(object sender, EventArgs e) { }
         private void NoOrdersAvailable_Click(object sender, EventArgs e) { }
+
+        private void FarmerDashboard1_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }   

@@ -115,7 +115,7 @@ namespace Grow2Go1.Views
             this.signInPanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(15)))), ((int)(((byte)(20)))), ((int)(((byte)(15)))));
             this.signInPanel.ForeColor = System.Drawing.Color.Transparent;
             this.signInPanel.Location = new System.Drawing.Point(-10, 0);
-            this.signInPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.signInPanel.Margin = new System.Windows.Forms.Padding(2);
             this.signInPanel.Name = "signInPanel";
             this.signInPanel.Size = new System.Drawing.Size(638, 1041);
             this.signInPanel.TabIndex = 0;
@@ -159,7 +159,7 @@ namespace Grow2Go1.Views
             this.toggleContainer.Controls.Add(this.btnSignIn);
             this.toggleContainer.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.toggleContainer.Location = new System.Drawing.Point(86, 260);
-            this.toggleContainer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.toggleContainer.Margin = new System.Windows.Forms.Padding(2);
             this.toggleContainer.Name = "toggleContainer";
             this.toggleContainer.Size = new System.Drawing.Size(435, 67);
             this.toggleContainer.TabIndex = 10;
@@ -172,7 +172,7 @@ namespace Grow2Go1.Views
             this.btnSignUp.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSignUp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.btnSignUp.Location = new System.Drawing.Point(219, 5);
-            this.btnSignUp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSignUp.Margin = new System.Windows.Forms.Padding(2);
             this.btnSignUp.Name = "btnSignUp";
             this.btnSignUp.Size = new System.Drawing.Size(206, 54);
             this.btnSignUp.TabIndex = 0;
@@ -199,7 +199,7 @@ namespace Grow2Go1.Views
             this.btnSignIn.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSignIn.ForeColor = System.Drawing.Color.White;
             this.btnSignIn.Location = new System.Drawing.Point(9, 6);
-            this.btnSignIn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSignIn.Margin = new System.Windows.Forms.Padding(2);
             this.btnSignIn.Name = "btnSignIn";
             this.btnSignIn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(110)))), ((int)(((byte)(21)))));
             this.btnSignIn.Size = new System.Drawing.Size(206, 53);
@@ -289,7 +289,7 @@ namespace Grow2Go1.Views
             this.btnLogin.HoverState.BorderColor = System.Drawing.Color.Lime;
             this.btnLogin.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(57)))), ((int)(((byte)(11)))));
             this.btnLogin.Location = new System.Drawing.Point(179, 648);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(2);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(57)))), ((int)(((byte)(11)))));
             this.btnLogin.Size = new System.Drawing.Size(230, 64);
@@ -318,7 +318,7 @@ namespace Grow2Go1.Views
             this.grow2go_logo.BackgroundImage = global::Grow2Go1.Properties.Resources.logo;
             this.grow2go_logo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.grow2go_logo.Location = new System.Drawing.Point(68, 214);
-            this.grow2go_logo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grow2go_logo.Margin = new System.Windows.Forms.Padding(2);
             this.grow2go_logo.Name = "grow2go_logo";
             this.grow2go_logo.Size = new System.Drawing.Size(718, 232);
             this.grow2go_logo.TabIndex = 1;
@@ -389,11 +389,12 @@ namespace Grow2Go1.Views
             this.signUpPanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(15)))), ((int)(((byte)(20)))), ((int)(((byte)(15)))));
             this.signUpPanel.ForeColor = System.Drawing.Color.Transparent;
             this.signUpPanel.Location = new System.Drawing.Point(628, 0);
-            this.signUpPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.signUpPanel.Margin = new System.Windows.Forms.Padding(2);
             this.signUpPanel.Name = "signUpPanel";
             this.signUpPanel.Size = new System.Drawing.Size(638, 1041);
             this.signUpPanel.TabIndex = 8;
             this.signUpPanel.UseTransparentBackground = true;
+            this.signUpPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.signUpPanel_Paint);
             // 
             // customerBtn
             // 
@@ -412,7 +413,7 @@ namespace Grow2Go1.Views
             this.customerBtn.Image = global::Grow2Go1.Properties.Resources.customerIcon;
             this.customerBtn.ImageSize = new System.Drawing.Size(85, 80);
             this.customerBtn.Location = new System.Drawing.Point(176, 397);
-            this.customerBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.customerBtn.Margin = new System.Windows.Forms.Padding(2);
             this.customerBtn.Name = "customerBtn";
             this.customerBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(57)))), ((int)(((byte)(11)))));
             this.customerBtn.PressedDepth = 50;
@@ -438,7 +439,7 @@ namespace Grow2Go1.Views
             this.farmerBtn.Image = global::Grow2Go1.Properties.Resources.farmerIcon;
             this.farmerBtn.ImageSize = new System.Drawing.Size(55, 80);
             this.farmerBtn.Location = new System.Drawing.Point(176, 676);
-            this.farmerBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.farmerBtn.Margin = new System.Windows.Forms.Padding(2);
             this.farmerBtn.Name = "farmerBtn";
             this.farmerBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(57)))), ((int)(((byte)(11)))));
             this.farmerBtn.PressedDepth = 50;
@@ -482,7 +483,7 @@ namespace Grow2Go1.Views
             this.guna2Panel1.Controls.Add(this.guna2Button2);
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.guna2Panel1.Location = new System.Drawing.Point(86, 260);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(435, 67);
             this.guna2Panel1.TabIndex = 10;
@@ -494,7 +495,7 @@ namespace Grow2Go1.Views
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.Location = new System.Drawing.Point(219, 5);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(110)))), ((int)(((byte)(21)))));
             this.guna2Button1.Size = new System.Drawing.Size(206, 54);
@@ -520,7 +521,7 @@ namespace Grow2Go1.Views
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.guna2Button2.Location = new System.Drawing.Point(9, 6);
-            this.guna2Button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(206, 53);
             this.guna2Button2.TabIndex = 0;
@@ -550,7 +551,7 @@ namespace Grow2Go1.Views
             this.signUpCustomer.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(15)))), ((int)(((byte)(20)))), ((int)(((byte)(15)))));
             this.signUpCustomer.ForeColor = System.Drawing.Color.Transparent;
             this.signUpCustomer.Location = new System.Drawing.Point(1266, 0);
-            this.signUpCustomer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.signUpCustomer.Margin = new System.Windows.Forms.Padding(2);
             this.signUpCustomer.Name = "signUpCustomer";
             this.signUpCustomer.Size = new System.Drawing.Size(638, 1041);
             this.signUpCustomer.TabIndex = 10;
@@ -577,7 +578,7 @@ namespace Grow2Go1.Views
             this.backButton.ImageRotate = 0F;
             this.backButton.ImageSize = new System.Drawing.Size(35, 35);
             this.backButton.Location = new System.Drawing.Point(24, 127);
-            this.backButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.backButton.Margin = new System.Windows.Forms.Padding(2);
             this.backButton.Name = "backButton";
             this.backButton.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.backButton.Size = new System.Drawing.Size(41, 32);
@@ -600,7 +601,7 @@ namespace Grow2Go1.Views
             this.createAccBtn1.HoverState.CustomBorderColor = System.Drawing.Color.Lime;
             this.createAccBtn1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(57)))), ((int)(((byte)(11)))));
             this.createAccBtn1.Location = new System.Drawing.Point(176, 856);
-            this.createAccBtn1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.createAccBtn1.Margin = new System.Windows.Forms.Padding(2);
             this.createAccBtn1.Name = "createAccBtn1";
             this.createAccBtn1.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(57)))), ((int)(((byte)(11)))));
             this.createAccBtn1.Size = new System.Drawing.Size(272, 58);
@@ -801,7 +802,7 @@ namespace Grow2Go1.Views
             this.guna2Panel3.Controls.Add(this.guna2Button4);
             this.guna2Panel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.guna2Panel3.Location = new System.Drawing.Point(86, 260);
-            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(435, 67);
             this.guna2Panel3.TabIndex = 10;
@@ -813,7 +814,7 @@ namespace Grow2Go1.Views
             this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
             this.guna2Button3.Location = new System.Drawing.Point(219, 5);
-            this.guna2Button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(206, 54);
             this.guna2Button3.TabIndex = 0;
@@ -838,7 +839,7 @@ namespace Grow2Go1.Views
             this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.guna2Button4.Location = new System.Drawing.Point(9, 6);
-            this.guna2Button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Button4.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(206, 53);
             this.guna2Button4.TabIndex = 0;
@@ -868,7 +869,7 @@ namespace Grow2Go1.Views
             this.signUpFarmer.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(15)))), ((int)(((byte)(20)))), ((int)(((byte)(15)))));
             this.signUpFarmer.ForeColor = System.Drawing.Color.Transparent;
             this.signUpFarmer.Location = new System.Drawing.Point(-648, 0);
-            this.signUpFarmer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.signUpFarmer.Margin = new System.Windows.Forms.Padding(2);
             this.signUpFarmer.Name = "signUpFarmer";
             this.signUpFarmer.Size = new System.Drawing.Size(638, 1041);
             this.signUpFarmer.TabIndex = 11;
@@ -895,7 +896,7 @@ namespace Grow2Go1.Views
             this.guna2ImageButton1.ImageRotate = 0F;
             this.guna2ImageButton1.ImageSize = new System.Drawing.Size(35, 35);
             this.guna2ImageButton1.Location = new System.Drawing.Point(24, 127);
-            this.guna2ImageButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2ImageButton1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2ImageButton1.Name = "guna2ImageButton1";
             this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton1.Size = new System.Drawing.Size(41, 32);
@@ -918,7 +919,7 @@ namespace Grow2Go1.Views
             this.createAccBtn2.HoverState.CustomBorderColor = System.Drawing.Color.Lime;
             this.createAccBtn2.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(57)))), ((int)(((byte)(11)))));
             this.createAccBtn2.Location = new System.Drawing.Point(176, 856);
-            this.createAccBtn2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.createAccBtn2.Margin = new System.Windows.Forms.Padding(2);
             this.createAccBtn2.Name = "createAccBtn2";
             this.createAccBtn2.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(57)))), ((int)(((byte)(11)))));
             this.createAccBtn2.Size = new System.Drawing.Size(272, 58);
@@ -1119,7 +1120,7 @@ namespace Grow2Go1.Views
             this.guna2Panel4.Controls.Add(this.guna2Button7);
             this.guna2Panel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.guna2Panel4.Location = new System.Drawing.Point(86, 260);
-            this.guna2Panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Panel4.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel4.Name = "guna2Panel4";
             this.guna2Panel4.Size = new System.Drawing.Size(435, 67);
             this.guna2Panel4.TabIndex = 10;
@@ -1131,7 +1132,7 @@ namespace Grow2Go1.Views
             this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button6.ForeColor = System.Drawing.Color.White;
             this.guna2Button6.Location = new System.Drawing.Point(219, 5);
-            this.guna2Button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Button6.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button6.Name = "guna2Button6";
             this.guna2Button6.Size = new System.Drawing.Size(206, 54);
             this.guna2Button6.TabIndex = 0;
@@ -1156,7 +1157,7 @@ namespace Grow2Go1.Views
             this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.guna2Button7.Location = new System.Drawing.Point(9, 6);
-            this.guna2Button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Button7.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button7.Name = "guna2Button7";
             this.guna2Button7.Size = new System.Drawing.Size(206, 53);
             this.guna2Button7.TabIndex = 0;
@@ -1180,7 +1181,7 @@ namespace Grow2Go1.Views
             this.Controls.Add(this.label1);
             this.Controls.Add(this.grow2go_logo);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "LoginForm";
             this.Text = "[logo]";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

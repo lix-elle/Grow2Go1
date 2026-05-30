@@ -102,6 +102,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CartItem.cs" />
+    <Compile Include="FarmEventArgs.cs" />
+    <Compile Include="Farms.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Farms.Designer.cs">
+      <DependentUpon>Farms.cs</DependentUpon>
+    </Compile>
     <Compile Include="Helpers\DBConnection.cs" />
     <Compile Include="Helpers\SessionManager.cs" />
     <Compile Include="Models\Order.cs" />
@@ -115,6 +123,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Repositories\CartRepository.cs" />
     <Compile Include="Repositories\OrderRepository.cs" />
     <Compile Include="Views\AddProductControl.cs">
       <SubType>UserControl</SubType>
@@ -129,12 +138,6 @@
     </Compile>
     <Compile Include="Views\CustomerDashboard\CustomerDashboard1.Designer.cs">
       <DependentUpon>CustomerDashboard1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Views\CustomerDashboard\CustomerDashboard2.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Views\CustomerDashboard\CustomerDashboard2.Designer.cs">
-      <DependentUpon>CustomerDashboard2.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\CustomerDashboard\CustomerDashboard3.cs">
       <SubType>UserControl</SubType>
@@ -153,12 +156,6 @@
     </Compile>
     <Compile Include="Views\CustomerDashboard\CustomerDashboard5.Designer.cs">
       <DependentUpon>CustomerDashboard5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Views\CustomerProfile\CustomerProfile.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Views\CustomerProfile\CustomerProfile.Designer.cs">
-      <DependentUpon>CustomerProfile.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Orders\Orders1.cs">
       <SubType>UserControl</SubType>
@@ -208,6 +205,9 @@
     <Compile Include="Views\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Farms.resx">
+      <DependentUpon>Farms.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
@@ -231,9 +231,6 @@
     <EmbeddedResource Include="Views\CustomerDashboard\CustomerDashboard1.resx">
       <DependentUpon>CustomerDashboard1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\CustomerDashboard\CustomerDashboard2.resx">
-      <DependentUpon>CustomerDashboard2.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Views\CustomerDashboard\CustomerDashboard3.resx">
       <DependentUpon>CustomerDashboard3.cs</DependentUpon>
     </EmbeddedResource>
@@ -242,9 +239,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\CustomerDashboard\CustomerDashboard5.resx">
       <DependentUpon>CustomerDashboard5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\CustomerProfile\CustomerProfile.resx">
-      <DependentUpon>CustomerProfile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Orders\Orders1.resx">
       <DependentUpon>Orders1.cs</DependentUpon>
@@ -275,7 +269,9 @@
   <ItemGroup>
     <None Include="Resources\LoginBackground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="ProductImages\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Assets\prime_check-circle%402x.png" />
     <None Include="Assets\prime_check-circle.png" />
@@ -299,6 +295,7 @@
     <None Include="Assets\Location Icon.png" />
     <None Include="Assets\iconamoon_edit.png" />
     <None Include="Assets\hugeicons_view.png" />
+    <Content Include="Assets\Filter Icon.png" />
     <Content Include="Assets\greencarticon.png" />
     <Content Include="Assets\greenlocationicon.png" />
     <Content Include="Assets\LoginBackground.png">

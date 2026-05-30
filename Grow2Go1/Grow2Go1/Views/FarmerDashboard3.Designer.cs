@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.guna2CustomGradientPanel4 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.txtOwnerName = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btnEdit = new Guna.UI2.WinForms.Guna2Button();
             this.txtDeliveryDays = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtPhoneNumber = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtDeliveryZones = new Guna.UI2.WinForms.Guna2TextBox();
@@ -52,15 +54,18 @@
             this.Logo = new Guna.UI2.WinForms.Guna2Panel();
             this.Tagline = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.FarmerDashboardLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.btnEdit = new Guna.UI2.WinForms.Guna2Button();
-            this.txtOwnerName = new Guna.UI2.WinForms.Guna2TextBox();
+            this.picFarmProfile = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.btnChangePic = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel4.SuspendLayout();
             this.guna2CustomGradientPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picFarmProfile)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2CustomGradientPanel4
             // 
             this.guna2CustomGradientPanel4.BorderRadius = 18;
+            this.guna2CustomGradientPanel4.Controls.Add(this.btnChangePic);
+            this.guna2CustomGradientPanel4.Controls.Add(this.picFarmProfile);
             this.guna2CustomGradientPanel4.Controls.Add(this.txtOwnerName);
             this.guna2CustomGradientPanel4.Controls.Add(this.btnEdit);
             this.guna2CustomGradientPanel4.Controls.Add(this.txtDeliveryDays);
@@ -86,6 +91,58 @@
             this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(1806, 622);
             this.guna2CustomGradientPanel4.TabIndex = 16;
             this.guna2CustomGradientPanel4.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2CustomGradientPanel4_Paint);
+            // 
+            // txtOwnerName
+            // 
+            this.txtOwnerName.BackColor = System.Drawing.Color.Transparent;
+            this.txtOwnerName.BorderColor = System.Drawing.Color.Transparent;
+            this.txtOwnerName.BorderRadius = 12;
+            this.txtOwnerName.BorderThickness = 0;
+            this.txtOwnerName.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtOwnerName.DefaultText = "";
+            this.txtOwnerName.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtOwnerName.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtOwnerName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtOwnerName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtOwnerName.FillColor = System.Drawing.Color.Gainsboro;
+            this.txtOwnerName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtOwnerName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtOwnerName.ForeColor = System.Drawing.Color.Black;
+            this.txtOwnerName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtOwnerName.Location = new System.Drawing.Point(1321, 132);
+            this.txtOwnerName.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtOwnerName.Name = "txtOwnerName";
+            this.txtOwnerName.PlaceholderText = "";
+            this.txtOwnerName.SelectedText = "";
+            this.txtOwnerName.Size = new System.Drawing.Size(448, 50);
+            this.txtOwnerName.TabIndex = 40;
+            // 
+            // btnEdit
+            // 
+            this.btnEdit.BackColor = System.Drawing.Color.Transparent;
+            this.btnEdit.BorderColor = System.Drawing.Color.Transparent;
+            this.btnEdit.BorderRadius = 9;
+            this.btnEdit.BorderThickness = 1;
+            this.btnEdit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnEdit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnEdit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnEdit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnEdit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(110)))), ((int)(((byte)(21)))));
+            this.btnEdit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEdit.ForeColor = System.Drawing.Color.White;
+            this.btnEdit.HoverState.BorderColor = System.Drawing.Color.Lime;
+            this.btnEdit.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(57)))), ((int)(((byte)(11)))));
+            this.btnEdit.HoverState.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnEdit.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnEdit.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnEdit.Location = new System.Drawing.Point(1604, 517);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(2);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.PressedColor = System.Drawing.Color.Transparent;
+            this.btnEdit.Size = new System.Drawing.Size(111, 65);
+            this.btnEdit.TabIndex = 39;
+            this.btnEdit.Text = "Edit";
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click_1);
             // 
             // txtDeliveryDays
             // 
@@ -279,7 +336,7 @@
             this.txtFarmDescription.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFarmDescription.ForeColor = System.Drawing.Color.Black;
             this.txtFarmDescription.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtFarmDescription.Location = new System.Drawing.Point(32, 231);
+            this.txtFarmDescription.Location = new System.Drawing.Point(830, 237);
             this.txtFarmDescription.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtFarmDescription.Multiline = true;
             this.txtFarmDescription.Name = "txtFarmDescription";
@@ -292,7 +349,7 @@
             // 
             this.FarmDescription.BackColor = System.Drawing.Color.Transparent;
             this.FarmDescription.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FarmDescription.Location = new System.Drawing.Point(28, 199);
+            this.FarmDescription.Location = new System.Drawing.Point(830, 205);
             this.FarmDescription.Margin = new System.Windows.Forms.Padding(2);
             this.FarmDescription.Name = "FarmDescription";
             this.FarmDescription.Size = new System.Drawing.Size(150, 27);
@@ -317,19 +374,19 @@
             this.txtFarmName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFarmName.ForeColor = System.Drawing.Color.Black;
             this.txtFarmName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtFarmName.Location = new System.Drawing.Point(32, 132);
+            this.txtFarmName.Location = new System.Drawing.Point(834, 132);
             this.txtFarmName.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtFarmName.Name = "txtFarmName";
             this.txtFarmName.PlaceholderText = "";
             this.txtFarmName.SelectedText = "";
-            this.txtFarmName.Size = new System.Drawing.Size(731, 50);
+            this.txtFarmName.Size = new System.Drawing.Size(444, 50);
             this.txtFarmName.TabIndex = 22;
             // 
             // OwnerName
             // 
             this.OwnerName.BackColor = System.Drawing.Color.Transparent;
             this.OwnerName.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OwnerName.Location = new System.Drawing.Point(830, 100);
+            this.OwnerName.Location = new System.Drawing.Point(1320, 100);
             this.OwnerName.Margin = new System.Windows.Forms.Padding(2);
             this.OwnerName.Name = "OwnerName";
             this.OwnerName.Size = new System.Drawing.Size(116, 27);
@@ -366,7 +423,7 @@
             // 
             this.FarmName.BackColor = System.Drawing.Color.Transparent;
             this.FarmName.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FarmName.Location = new System.Drawing.Point(28, 100);
+            this.FarmName.Location = new System.Drawing.Point(830, 100);
             this.FarmName.Margin = new System.Windows.Forms.Padding(2);
             this.FarmName.Name = "FarmName";
             this.FarmName.Size = new System.Drawing.Size(104, 27);
@@ -484,57 +541,36 @@
             this.FarmerDashboardLabel.TabIndex = 23;
             this.FarmerDashboardLabel.Text = "Farmer Dashboard";
             // 
-            // btnEdit
+            // picFarmProfile
             // 
-            this.btnEdit.BackColor = System.Drawing.Color.Transparent;
-            this.btnEdit.BorderColor = System.Drawing.Color.Transparent;
-            this.btnEdit.BorderRadius = 9;
-            this.btnEdit.BorderThickness = 1;
-            this.btnEdit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnEdit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnEdit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnEdit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnEdit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(110)))), ((int)(((byte)(21)))));
-            this.btnEdit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEdit.ForeColor = System.Drawing.Color.White;
-            this.btnEdit.HoverState.BorderColor = System.Drawing.Color.Lime;
-            this.btnEdit.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(57)))), ((int)(((byte)(11)))));
-            this.btnEdit.HoverState.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnEdit.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnEdit.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnEdit.Location = new System.Drawing.Point(1604, 517);
-            this.btnEdit.Margin = new System.Windows.Forms.Padding(2);
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.PressedColor = System.Drawing.Color.Transparent;
-            this.btnEdit.Size = new System.Drawing.Size(111, 65);
-            this.btnEdit.TabIndex = 39;
-            this.btnEdit.Text = "Edit";
-            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click_1);
+            this.picFarmProfile.BackColor = System.Drawing.Color.Silver;
+            this.picFarmProfile.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.picFarmProfile.ImageRotate = 0F;
+            this.picFarmProfile.Location = new System.Drawing.Point(72, 100);
+            this.picFarmProfile.Name = "picFarmProfile";
+            this.picFarmProfile.Size = new System.Drawing.Size(264, 242);
+            this.picFarmProfile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picFarmProfile.TabIndex = 41;
+            this.picFarmProfile.TabStop = false;
             // 
-            // txtOwnerName
+            // btnChangePic
             // 
-            this.txtOwnerName.BackColor = System.Drawing.Color.Transparent;
-            this.txtOwnerName.BorderColor = System.Drawing.Color.Transparent;
-            this.txtOwnerName.BorderRadius = 12;
-            this.txtOwnerName.BorderThickness = 0;
-            this.txtOwnerName.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtOwnerName.DefaultText = "";
-            this.txtOwnerName.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtOwnerName.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtOwnerName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtOwnerName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtOwnerName.FillColor = System.Drawing.Color.Gainsboro;
-            this.txtOwnerName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtOwnerName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtOwnerName.ForeColor = System.Drawing.Color.Black;
-            this.txtOwnerName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtOwnerName.Location = new System.Drawing.Point(830, 132);
-            this.txtOwnerName.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.txtOwnerName.Name = "txtOwnerName";
-            this.txtOwnerName.PlaceholderText = "";
-            this.txtOwnerName.SelectedText = "";
-            this.txtOwnerName.Size = new System.Drawing.Size(731, 50);
-            this.txtOwnerName.TabIndex = 40;
+            this.btnChangePic.BackColor = System.Drawing.Color.Transparent;
+            this.btnChangePic.BorderRadius = 15;
+            this.btnChangePic.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnChangePic.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnChangePic.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnChangePic.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnChangePic.FillColor = System.Drawing.Color.Green;
+            this.btnChangePic.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnChangePic.ForeColor = System.Drawing.Color.White;
+            this.btnChangePic.Location = new System.Drawing.Point(435, 190);
+            this.btnChangePic.Name = "btnChangePic";
+            this.btnChangePic.Size = new System.Drawing.Size(180, 36);
+            this.btnChangePic.TabIndex = 42;
+            this.btnChangePic.Text = "📷  Change Photo";
+            this.btnChangePic.Visible = false;
+            this.btnChangePic.Click += new System.EventHandler(this.btnChangePic_Click);
             // 
             // FarmerDashboard3
             // 
@@ -548,9 +584,11 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FarmerDashboard3";
             this.Size = new System.Drawing.Size(1920, 1080);
+            this.Load += new System.EventHandler(this.FarmerDashboard3_Load_1);
             this.guna2CustomGradientPanel4.ResumeLayout(false);
             this.guna2CustomGradientPanel4.PerformLayout();
             this.guna2CustomGradientPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picFarmProfile)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -583,5 +621,7 @@
         private Guna.UI2.WinForms.Guna2TextBox txtPhoneNumber;
         private Guna.UI2.WinForms.Guna2Button btnEdit;
         private Guna.UI2.WinForms.Guna2TextBox txtOwnerName;
+        private Guna.UI2.WinForms.Guna2PictureBox picFarmProfile;
+        private Guna.UI2.WinForms.Guna2Button btnChangePic;
     }
 }

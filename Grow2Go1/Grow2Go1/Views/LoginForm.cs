@@ -1,5 +1,5 @@
 ﻿using Grow2Go.Repositories;
-using Grow2Go.Models;
+using Grow2Go1.Models;
 using Grow2Go1.Views.CustomerDashboard;
 using System;
 using System.Drawing;
@@ -302,6 +302,11 @@ namespace Grow2Go1.Views
                 MessageBox.Show("Something went wrong. Please try again.",
                     "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void signUpPanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

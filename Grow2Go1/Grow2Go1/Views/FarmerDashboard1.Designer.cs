@@ -189,6 +189,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FarmerDashboard1";
             this.Size = new System.Drawing.Size(1920, 1080);
+            this.Load += new System.EventHandler(this.FarmerDashboard1_Load_1);
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

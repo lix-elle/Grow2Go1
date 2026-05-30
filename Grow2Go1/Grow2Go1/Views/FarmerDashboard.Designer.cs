@@ -38,7 +38,7 @@
             this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.TotalProdNum = new System.Windows.Forms.Label();
             this.TotalProducts = new System.Windows.Forms.Label();
-            this.guna2CustomGradientPanel4 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.RecentOrder = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.NoOrdersAvailable = new System.Windows.Forms.Label();
             this.LatestOrdersFromYourCostumers = new System.Windows.Forms.Label();
             this.RecentOrders = new System.Windows.Forms.Label();
@@ -55,13 +55,12 @@
             this.ActiveOrdNum = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.MarketplaceButton = new Guna.UI2.WinForms.Guna2Button();
             this.MenuButton = new Guna.UI2.WinForms.Guna2Button();
             this.FarmMapButton = new Guna.UI2.WinForms.Guna2Button();
             this.Logo = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2CustomGradientPanel2.SuspendLayout();
             this.guna2CustomGradientPanel3.SuspendLayout();
-            this.guna2CustomGradientPanel4.SuspendLayout();
+            this.RecentOrder.SuspendLayout();
             this.guna2CustomGradientPanel5.SuspendLayout();
             this.guna2CustomGradientPanel6.SuspendLayout();
             this.guna2CustomGradientPanel7.SuspendLayout();
@@ -221,17 +220,17 @@
             this.TotalProducts.TabIndex = 0;
             this.TotalProducts.Text = "Total Products";
             // 
-            // guna2CustomGradientPanel4
+            // RecentOrder
             // 
-            this.guna2CustomGradientPanel4.BorderRadius = 30;
-            this.guna2CustomGradientPanel4.Controls.Add(this.NoOrdersAvailable);
-            this.guna2CustomGradientPanel4.Controls.Add(this.LatestOrdersFromYourCostumers);
-            this.guna2CustomGradientPanel4.Controls.Add(this.RecentOrders);
-            this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(49, 570);
-            this.guna2CustomGradientPanel4.Margin = new System.Windows.Forms.Padding(2);
-            this.guna2CustomGradientPanel4.Name = "guna2CustomGradientPanel4";
-            this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(1821, 457);
-            this.guna2CustomGradientPanel4.TabIndex = 4;
+            this.RecentOrder.BorderRadius = 30;
+            this.RecentOrder.Controls.Add(this.NoOrdersAvailable);
+            this.RecentOrder.Controls.Add(this.LatestOrdersFromYourCostumers);
+            this.RecentOrder.Controls.Add(this.RecentOrders);
+            this.RecentOrder.Location = new System.Drawing.Point(49, 570);
+            this.RecentOrder.Margin = new System.Windows.Forms.Padding(2);
+            this.RecentOrder.Name = "RecentOrder";
+            this.RecentOrder.Size = new System.Drawing.Size(1821, 457);
+            this.RecentOrder.TabIndex = 4;
             // 
             // NoOrdersAvailable
             // 
@@ -307,7 +306,7 @@
             this.TotalCostumer.Name = "TotalCostumer";
             this.TotalCostumer.Size = new System.Drawing.Size(175, 32);
             this.TotalCostumer.TabIndex = 1;
-            this.TotalCostumer.Text = "Total Costumer";
+            this.TotalCostumer.Text = "Total Customer";
             // 
             // guna2CustomGradientPanel6
             // 
@@ -423,13 +422,14 @@
             // guna2CustomGradientPanel1
             // 
             this.guna2CustomGradientPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(140)))), ((int)(((byte)(45)))));
             this.guna2CustomGradientPanel1.BorderRadius = 25;
-            this.guna2CustomGradientPanel1.Controls.Add(this.MarketplaceButton);
+            this.guna2CustomGradientPanel1.BorderThickness = 1;
             this.guna2CustomGradientPanel1.Controls.Add(this.MenuButton);
             this.guna2CustomGradientPanel1.Controls.Add(this.FarmMapButton);
             this.guna2CustomGradientPanel1.Controls.Add(this.Logo);
-            this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(61)))), ((int)(((byte)(24)))));
-            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(61)))), ((int)(((byte)(24)))));
+            this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(35)))), ((int)(((byte)(57)))), ((int)(((byte)(11)))));
+            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(68)))), ((int)(((byte)(110)))), ((int)(((byte)(21)))));
             this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(61)))), ((int)(((byte)(24)))));
             this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(61)))), ((int)(((byte)(24)))));
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(19, 23);
@@ -437,31 +437,6 @@
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1863, 127);
             this.guna2CustomGradientPanel1.TabIndex = 9;
-            // 
-            // MarketplaceButton
-            // 
-            this.MarketplaceButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.MarketplaceButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.MarketplaceButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.MarketplaceButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.MarketplaceButton.FillColor = System.Drawing.Color.Transparent;
-            this.MarketplaceButton.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MarketplaceButton.ForeColor = System.Drawing.Color.White;
-            this.MarketplaceButton.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.MarketplaceButton.HoverState.FillColor = System.Drawing.Color.Transparent;
-            this.MarketplaceButton.HoverState.ForeColor = System.Drawing.Color.Lime;
-            this.MarketplaceButton.HoverState.Image = global::Grow2Go1.Properties.Resources.greencarticon;
-            this.MarketplaceButton.Image = global::Grow2Go1.Properties.Resources.Cart_Icon;
-            this.MarketplaceButton.ImageSize = new System.Drawing.Size(40, 40);
-            this.MarketplaceButton.Location = new System.Drawing.Point(1275, 41);
-            this.MarketplaceButton.Name = "MarketplaceButton";
-            this.MarketplaceButton.PressedColor = System.Drawing.Color.Transparent;
-            this.MarketplaceButton.PressedDepth = 10;
-            this.MarketplaceButton.Size = new System.Drawing.Size(191, 45);
-            this.MarketplaceButton.TabIndex = 7;
-            this.MarketplaceButton.Text = "Marketplace";
-            this.MarketplaceButton.TextOffset = new System.Drawing.Point(5, 0);
-            this.MarketplaceButton.Click += new System.EventHandler(this.MarketplaceButton_Click);
             // 
             // MenuButton
             // 
@@ -529,7 +504,7 @@
             this.Controls.Add(this.guna2CustomGradientPanel6);
             this.Controls.Add(this.guna2CustomGradientPanel5);
             this.Controls.Add(this.guna2CustomGradientPanel3);
-            this.Controls.Add(this.guna2CustomGradientPanel4);
+            this.Controls.Add(this.RecentOrder);
             this.Controls.Add(this.guna2CustomGradientPanel2);
             this.Controls.Add(this.Tagline);
             this.Controls.Add(this.FarmerDashboardLabel);
@@ -542,8 +517,8 @@
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             this.guna2CustomGradientPanel3.ResumeLayout(false);
             this.guna2CustomGradientPanel3.PerformLayout();
-            this.guna2CustomGradientPanel4.ResumeLayout(false);
-            this.guna2CustomGradientPanel4.PerformLayout();
+            this.RecentOrder.ResumeLayout(false);
+            this.RecentOrder.PerformLayout();
             this.guna2CustomGradientPanel5.ResumeLayout(false);
             this.guna2CustomGradientPanel5.PerformLayout();
             this.guna2CustomGradientPanel6.ResumeLayout(false);
@@ -567,7 +542,7 @@
         private Guna.UI2.WinForms.Guna2Button OrdersButton;
         private Guna.UI2.WinForms.Guna2Button ProductsButton;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel3;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel4;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel RecentOrder;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel5;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel6;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel7;
@@ -589,6 +564,5 @@
         private Guna.UI2.WinForms.Guna2Button MenuButton;
         private Guna.UI2.WinForms.Guna2Button FarmMapButton;
         private Guna.UI2.WinForms.Guna2Panel Logo;
-        private Guna.UI2.WinForms.Guna2Button MarketplaceButton;
     }
 }

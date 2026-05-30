@@ -1,6 +1,6 @@
 ﻿using System;
 using MySql.Data.MySqlClient;
-using Grow2Go.Models;
+using Grow2Go1.Models;
 using Grow2Go.Helpers;
 
 namespace Grow2Go.Repositories
